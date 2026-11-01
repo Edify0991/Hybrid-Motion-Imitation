@@ -86,3 +86,4 @@ runs/
 *.pth
 *.ckpt
 *.onnx
+**/demo_data/**/*.xml
