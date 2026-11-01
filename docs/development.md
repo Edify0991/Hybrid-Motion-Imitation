@@ -30,3 +30,5 @@ git -C ../upstream-sync push origin main
 ```
 
 To integrate upstream into dev, first review incoming changes in the clean worktree, then merge upstream/main on a dedicated integration branch/worktree. Upstream changes may reintroduce assets or cause modify/delete conflicts; resolve each asset intentionally, retain local copies, and remove unwanted paths from the index only. Recheck `git ls-files -ci --exclude-standard`, the asset manifest and `git diff --cached` before committing. Never force-push shared dev history.
+
+Name source files by their function; avoid project shorthand in filenames. Keep host-specific audit and handoff records local.
