@@ -300,6 +300,10 @@ class MotionConfig:
     body_names_to_track: list[str]
     """Key body names to track, used for reward/termination computation."""
 
+    motion_manifest: str = ""
+    """Opt-in strict reference motion manifest path; empty preserves legacy loading."""
+    motion_pool: str = ""
+    """Exactly one manifest pool to load."""
     motion_dir: str = ""
     """Directory (or comma-separated directories) of .npz motion files.
     When non-empty, takes precedence over motion_file."""

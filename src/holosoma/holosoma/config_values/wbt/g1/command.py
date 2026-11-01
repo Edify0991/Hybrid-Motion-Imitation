@@ -241,3 +241,28 @@ __all__ = [
     "hybrid_object_motion_config",
     "motion_config_climb",
 ]
+
+
+# Robot-only, one-pool inspection preset. This is not the ABC interaction trainer.
+reference_preview_motion_config = replace(
+    motion_config,
+    motion_file="",
+    motion_dir="",
+    motion_manifest="generated_data/reference_motions_50hz/manifest.json",
+    motion_pool="amass_locomotion",
+    load_fixed_scene_from_motion=False,
+    enable_default_pose_prepend=False,
+    enable_default_pose_append=False,
+    enable_terminal_pose_hold=False,
+    use_adaptive_timesteps_sampler=False,
+)
+g1_29dof_wbt_reference_preview_command = replace(
+    g1_29dof_wbt_command,
+    setup_terms={
+        **g1_29dof_wbt_command.setup_terms,
+        "motion_command": replace(
+            g1_29dof_wbt_command.setup_terms["motion_command"],
+            params={"motion_config": reference_preview_motion_config},
+        ),
+    },
+)

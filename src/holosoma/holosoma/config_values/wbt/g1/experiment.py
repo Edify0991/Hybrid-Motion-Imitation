@@ -271,3 +271,11 @@ python src/holosoma/holosoma/train_agent.py \
 ="holosoma/data/motions/g1_29dof/whole_body_tracking/motion_crawl_slope.npz" \
   --simulator.config.scene.env_spacing=0.0
 """
+
+
+g1_29dof_wbt_reference_preview = replace(
+    g1_29dof_wbt,
+    training=replace(g1_29dof_wbt.training, name="g1_29dof_wbt_reference_preview"),
+    robot=replace(g1_29dof_wbt.robot, asset=replace(g1_29dof_wbt.robot.asset, urdf_file="g1/main_mesh_collision_halfspherehand.urdf")),
+    command=command.g1_29dof_wbt_reference_preview_command,
+)

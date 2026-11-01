@@ -1,0 +1,19 @@
+# Paths are read-only sources. Output is an ignored directory in this repository.
+amass_root: /data/AMASS_Retargeted_for_G1/g1
+physhsi_root: /home/user/wmd/PhysHSI/legged_gym/resources/dataset
+physhsi_mapping: /home/user/wmd/PhysHSI/legged_gym/resources/config/joint_id.txt
+target_urdf: src/holosoma/holosoma/data/robots/g1/main_mesh_collision_halfspherehand.urdf
+output_dir: generated_data/reference_motions_50hz
+target_fps: 50
+selection_manifest: docs/box_carry_training/motion_shortlist.json
+source_fps: {amass: 30, physhsi: 60}
+source_quaternion: {amass: WXYZ, physhsi: XYZW}
+joint_limit_tolerance_rad: 0.01
+physhsi_height_policy: physhsi_loader
+pools:
+  - name: amass_locomotion
+    source: amass
+    path_prefixes: [ACCAD/, KIT/]
+  - name: physhsi_interaction_aux
+    source: physhsi
+    path_prefixes: [dataset_carrybox/carryWith/, dataset_carrybox/pickUp/, dataset_carrybox/putDown/]

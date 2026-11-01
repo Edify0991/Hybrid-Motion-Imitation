@@ -11,11 +11,11 @@ After a fresh clone of dev:
 ```sh
 git remote add upstream https://github.com/jiashunwang/Hybrid-Motion-Imitation.git
 git fetch upstream
-python scripts/restore_dependency_assets.py
+python scripts/restore_dependency_assets.py --source c353731
 git ls-files -ci --exclude-standard
 ```
 
-The helper reads upstream blobs and exclusively creates missing paths. Existing files, including local modifications, are untouched, and nothing is staged. It does not access external original data directories. Use the upstream revision compatible with this branch (initial baseline c353731) when reproducibility is needed.
+The helper reads blobs from the specified revision (default c353731) and exclusively creates missing paths. Existing files, including local modifications, are untouched, and nothing is staged. It does not access external original data directories. Use the upstream revision compatible with this branch (initial baseline c353731) when reproducibility is needed.
 
 ## Synchronization
 

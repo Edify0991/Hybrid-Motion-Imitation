@@ -1193,6 +1193,11 @@ class MotionCommand(CommandTermBase):
         robot_joint_names = self._env.simulator.dof_names  # type: ignore[attr-defined]
 
         # 1. load motion data
+        if self.motion_cfg.motion_manifest:
+            if self.motion_cfg.enable_default_pose_prepend or self.motion_cfg.enable_default_pose_append or self.motion_cfg.enable_terminal_pose_hold:
+                raise ValueError("reference motion manifest motion cannot use transitions or terminal hold")
+            if self.motion_cfg.load_fixed_scene_from_motion:
+                raise ValueError("reference preview manifest cannot load fixed scene from legacy motion source")
         self.motion = self._load_motion_data(robot_body_names_alias, robot_joint_names)
 
         # Store body and joint indexes for interpolation
@@ -1259,6 +1264,11 @@ class MotionCommand(CommandTermBase):
             self._setup_visualization_markers_for_isaacsim()
 
     def _load_motion_data(self, robot_body_names_alias: list[str], robot_joint_names: list[str]) -> MotionLoader | MultiMotionLoader:
+        if self.motion_cfg.motion_manifest:
+            if self.motion_cfg.motion_file or self.motion_cfg.motion_dir or not self.motion_cfg.motion_pool:
+                raise ValueError("reference motion manifest requires pool and forbids legacy motion_file/motion_dir")
+            from holosoma.managers.command.terms.reference_motion_loader import load_manifest_pool
+            return load_manifest_pool(self.motion_cfg.motion_manifest, self.motion_cfg.motion_pool, robot_body_names_alias, robot_joint_names, self._env.dt, device=self.device)
         assert self.motion_cfg.motion_file or self.motion_cfg.motion_dir, (
             "Either motion_file or motion_dir must be set in MotionConfig"
         )

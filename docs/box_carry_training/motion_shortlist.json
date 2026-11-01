@@ -1,0 +1,3808 @@
+{
+  "physhsi": [
+    {
+      "path": "dataset_carrybox/carryWith/carrywith1.pt",
+      "frames": 256,
+      "fps": 60.0,
+      "seconds": 4.266666666666667,
+      "span_seconds": 4.25,
+      "displacement_xy": [
+        -2.118664026260376,
+        -2.343909978866577
+      ],
+      "distance_xy": 3.1595332622528076,
+      "path_length_xy": 3.179332733154297,
+      "yaw_change_deg": 7.801619052886963,
+      "mean_speed": 0.7467960119247437,
+      "p95_speed": 1.167821615934372,
+      "start_end_halfsec_speed": [
+        0.09440086781978607,
+        0.9778459072113037
+      ],
+      "start_end_halfsec_yawrate": [
+        0.3074786365032196,
+        0.5666429400444031
+      ],
+      "start_end_halfsec_leg_qvel_rms": [
+        0.2841627299785614,
+        1.8780004978179932
+      ],
+      "root_z_range": [
+        0.7217394709587097,
+        0.7876960635185242
+      ],
+      "finite": true,
+      "direction_segments": {
+        "forward": {
+          "seconds": 0.0,
+          "runs": []
+        },
+        "backward": {
+          "seconds": 0.0,
+          "runs": []
+        },
+        "left": {
+          "seconds": 0.0,
+          "runs": []
+        },
+        "right": {
+          "seconds": 0.0,
+          "runs": []
+        }
+      },
+      "fps_source": "PhysHSI task config frame_rate=60; PT has no fps field",
+      "schema": {
+        "base_height": [
+          256
+        ],
+        "base_position": [
+          256,
+          3
+        ],
+        "base_quat": [
+          256,
+          4
+        ],
+        "base_linear_velocity": [
+          256,
+          3
+        ],
+        "base_angular_velocity": [
+          256,
+          3
+        ],
+        "joint_position": [
+          256,
+          29
+        ],
+        "joint_velocity": [
+          256,
+          29
+        ],
+        "link_position": [
+          256,
+          6,
+          3
+        ],
+        "box_pos_local": [
+          256,
+          3
+        ],
+        "box_height_global": [
+          256
+        ]
+      },
+      "box_local_std": [
+        0.025043386965990067,
+        0.027593793347477913,
+        0.009732098318636417
+      ],
+      "box_world_raw_before_ground_bias": {
+        "start": [
+          -0.11558791995048523,
+          0.47173434495925903,
+          0.828904390335083
+        ],
+        "end": [
+          -2.1841163635253906,
+          -1.9389283657073975,
+          0.8214865326881409
+        ],
+        "z_range": [
+          0.7719162702560425,
+          0.8326448202133179
+        ],
+        "path_length": 3.3542733192443848
+      },
+      "box_note": "base_position + box_pos_local; get_obj_motion_state additionally applies z -= (base_position_z - base_height), z += 0.05; object orientation is derived from root yaw.",
+      "carry_direction_check": {
+        "interpretation": "forward carry",
+        "mean_body_vx_vy_when_root_speed_above_0_15": [
+          0.822608,
+          0.016706
+        ]
+      }
+    },
+    {
+      "path": "dataset_carrybox/carryWith/carrywith2.pt",
+      "frames": 194,
+      "fps": 60.0,
+      "seconds": 3.2333333333333334,
+      "span_seconds": 3.216666666666667,
+      "displacement_xy": [
+        -0.012161269783973694,
+        -1.1927671432495117
+      ],
+      "distance_xy": 1.1928291320800781,
+      "path_length_xy": 1.2298578023910522,
+      "yaw_change_deg": -0.15458083152770996,
+      "mean_speed": 0.3818221688270569,
+      "p95_speed": 0.7259851932525635,
+      "start_end_halfsec_speed": [
+        0.05888086557388306,
+        0.5209380984306335
+      ],
+      "start_end_halfsec_yawrate": [
+        0.14850486814975739,
+        0.5448182821273804
+      ],
+      "start_end_halfsec_leg_qvel_rms": [
+        0.1174708902835846,
+        1.1032942533493042
+      ],
+      "root_z_range": [
+        0.7304311394691467,
+        0.762150764465332
+      ],
+      "finite": true,
+      "direction_segments": {
+        "forward": {
+          "seconds": 0.0,
+          "runs": []
+        },
+        "backward": {
+          "seconds": 0.0,
+          "runs": []
+        },
+        "left": {
+          "seconds": 0.0,
+          "runs": []
+        },
+        "right": {
+          "seconds": 0.0,
+          "runs": []
+        }
+      },
+      "fps_source": "PhysHSI task config frame_rate=60; PT has no fps field",
+      "schema": {
+        "base_height": [
+          194
+        ],
+        "base_position": [
+          194,
+          3
+        ],
+        "base_quat": [
+          194,
+          4
+        ],
+        "base_linear_velocity": [
+          194,
+          3
+        ],
+        "base_angular_velocity": [
+          194,
+          3
+        ],
+        "joint_position": [
+          194,
+          29
+        ],
+        "joint_velocity": [
+          194,
+          29
+        ],
+        "link_position": [
+          194,
+          6,
+          3
+        ],
+        "box_pos_local": [
+          194,
+          3
+        ],
+        "box_height_global": [
+          194
+        ]
+      },
+      "box_local_std": [
+        0.029412299394607544,
+        0.002172577427700162,
+        0.014751582406461239
+      ],
+      "box_world_raw_before_ground_bias": {
+        "start": [
+          0.08685516566038132,
+          3.595182418823242,
+          0.8131174445152283
+        ],
+        "end": [
+          -0.005769621580839157,
+          2.4004483222961426,
+          0.8253803253173828
+        ],
+        "z_range": [
+          0.7679702639579773,
+          0.8315843343734741
+        ],
+        "path_length": 1.3615381717681885
+      },
+      "box_note": "base_position + box_pos_local; get_obj_motion_state additionally applies z -= (base_position_z - base_height), z += 0.05; object orientation is derived from root yaw.",
+      "carry_direction_check": {
+        "interpretation": "backward carry",
+        "mean_body_vx_vy_when_root_speed_above_0_15": [
+          -0.463066,
+          0.036988
+        ]
+      }
+    },
+    {
+      "path": "dataset_carrybox/carryWith/carrywith3.pt",
+      "frames": 323,
+      "fps": 60.0,
+      "seconds": 5.383333333333334,
+      "span_seconds": 5.366666666666666,
+      "displacement_xy": [
+        -0.17208223044872284,
+        -3.2694783210754395
+      ],
+      "distance_xy": 3.274003744125366,
+      "path_length_xy": 3.7060794830322266,
+      "yaw_change_deg": 157.08460998535156,
+      "mean_speed": 0.6906960606575012,
+      "p95_speed": 1.0531184077262878,
+      "start_end_halfsec_speed": [
+        0.3239128291606903,
+        0.7866706252098083
+      ],
+      "start_end_halfsec_yawrate": [
+        2.2313334941864014,
+        0.7248439788818359
+      ],
+      "start_end_halfsec_leg_qvel_rms": [
+        1.5297845602035522,
+        1.6425973176956177
+      ],
+      "root_z_range": [
+        0.7315818071365356,
+        0.7782831788063049
+      ],
+      "finite": true,
+      "direction_segments": {
+        "forward": {
+          "seconds": 0.0,
+          "runs": []
+        },
+        "backward": {
+          "seconds": 0.0,
+          "runs": []
+        },
+        "left": {
+          "seconds": 0.0,
+          "runs": []
+        },
+        "right": {
+          "seconds": 0.0,
+          "runs": []
+        }
+      },
+      "fps_source": "PhysHSI task config frame_rate=60; PT has no fps field",
+      "schema": {
+        "base_height": [
+          323
+        ],
+        "base_position": [
+          323,
+          3
+        ],
+        "base_quat": [
+          323,
+          4
+        ],
+        "base_linear_velocity": [
+          323,
+          3
+        ],
+        "base_angular_velocity": [
+          323,
+          3
+        ],
+        "joint_position": [
+          323,
+          29
+        ],
+        "joint_velocity": [
+          323,
+          29
+        ],
+        "link_position": [
+          323,
+          6,
+          3
+        ],
+        "box_pos_local": [
+          323,
+          3
+        ],
+        "box_height_global": [
+          323
+        ]
+      },
+      "box_local_std": [
+        0.10943812876939774,
+        0.19349132478237152,
+        0.013472646474838257
+      ],
+      "box_world_raw_before_ground_bias": {
+        "start": [
+          -0.28227776288986206,
+          0.9530794620513916,
+          0.8275313973426819
+        ],
+        "end": [
+          -0.3120999038219452,
+          -2.96928071975708,
+          0.7908650636672974
+        ],
+        "z_range": [
+          0.7738746404647827,
+          0.8476996421813965
+        ],
+        "path_length": 4.5889739990234375
+      },
+      "box_note": "base_position + box_pos_local; get_obj_motion_state additionally applies z -= (base_position_z - base_height), z += 0.05; object orientation is derived from root yaw.",
+      "carry_direction_check": {
+        "interpretation": "forward carry with turn",
+        "mean_body_vx_vy_when_root_speed_above_0_15": [
+          0.68349,
+          0.01687
+        ]
+      }
+    },
+    {
+      "path": "dataset_carrybox/loco_direction/B10_-_walk_turn_left_(45)_stageii.pt",
+      "frames": 253,
+      "fps": 60.0,
+      "seconds": 4.216666666666667,
+      "span_seconds": 4.2,
+      "displacement_xy": [
+        -2.378579616546631,
+        2.8361024856567383
+      ],
+      "distance_xy": 3.7015020847320557,
+      "path_length_xy": 3.7367591857910156,
+      "yaw_change_deg": 53.77225112915039,
+      "mean_speed": 0.8895263075828552,
+      "p95_speed": 1.107556676864624,
+      "start_end_halfsec_speed": [
+        0.7936497330665588,
+        0.8581365942955017
+      ],
+      "start_end_halfsec_yawrate": [
+        1.5926498174667358,
+        0.6992523074150085
+      ],
+      "start_end_halfsec_leg_qvel_rms": [
+        1.7074675559997559,
+        1.7656643390655518
+      ],
+      "root_z_range": [
+        0.7200720906257629,
+        0.7726002931594849
+      ],
+      "finite": true,
+      "direction_segments": {
+        "forward": {
+          "seconds": 0.0,
+          "runs": []
+        },
+        "backward": {
+          "seconds": 0.0,
+          "runs": []
+        },
+        "left": {
+          "seconds": 0.0,
+          "runs": []
+        },
+        "right": {
+          "seconds": 0.0,
+          "runs": []
+        }
+      },
+      "fps_source": "PhysHSI task config frame_rate=60; PT has no fps field",
+      "schema": {
+        "base_height": [
+          253
+        ],
+        "base_position": [
+          253,
+          3
+        ],
+        "base_quat": [
+          253,
+          4
+        ],
+        "base_linear_velocity": [
+          253,
+          3
+        ],
+        "base_angular_velocity": [
+          253,
+          3
+        ],
+        "joint_position": [
+          253,
+          29
+        ],
+        "joint_velocity": [
+          253,
+          29
+        ],
+        "link_position": [
+          253,
+          6,
+          3
+        ],
+        "box_pos_local": [
+          253,
+          3
+        ],
+        "box_height_global": [
+          253
+        ]
+      },
+      "box_local_std": [
+        9.5367431640625E-06,
+        1.9073486328125E-05,
+        0.0
+      ],
+      "box_world_raw_before_ground_bias": {
+        "start": [
+          -9.108795166015625,
+          10.259077072143555,
+          0.7500903606414795
+        ],
+        "end": [
+          -11.487375259399414,
+          13.09518051147461,
+          0.7200720906257629
+        ],
+        "z_range": [
+          0.7200720906257629,
+          0.7726002931594849
+        ],
+        "path_length": 3.79217529296875
+      },
+      "box_note": "base_position + box_pos_local; get_obj_motion_state additionally applies z -= (base_position_z - base_height), z += 0.05; object orientation is derived from root yaw."
+    },
+    {
+      "path": "dataset_carrybox/loco_direction/B11_-_walk_turn_left_(135)_stageii.pt",
+      "frames": 289,
+      "fps": 60.0,
+      "seconds": 4.816666666666666,
+      "span_seconds": 4.8,
+      "displacement_xy": [
+        -2.2242202758789062,
+        -2.2082245349884033
+      ],
+      "distance_xy": 3.13423228263855,
+      "path_length_xy": 3.6537299156188965,
+      "yaw_change_deg": 125.62776947021484,
+      "mean_speed": 0.7612633109092712,
+      "p95_speed": 1.094146728515625,
+      "start_end_halfsec_speed": [
+        0.545228898525238,
+        0.8629267811775208
+      ],
+      "start_end_halfsec_yawrate": [
+        1.7946354150772095,
+        0.6511678695678711
+      ],
+      "start_end_halfsec_leg_qvel_rms": [
+        1.6246709823608398,
+        1.6084132194519043
+      ],
+      "root_z_range": [
+        0.7340112924575806,
+        0.7889485359191895
+      ],
+      "finite": true,
+      "direction_segments": {
+        "forward": {
+          "seconds": 0.0,
+          "runs": []
+        },
+        "backward": {
+          "seconds": 0.0,
+          "runs": []
+        },
+        "left": {
+          "seconds": 0.0,
+          "runs": []
+        },
+        "right": {
+          "seconds": 0.0,
+          "runs": []
+        }
+      },
+      "fps_source": "PhysHSI task config frame_rate=60; PT has no fps field",
+      "schema": {
+        "base_height": [
+          289
+        ],
+        "base_position": [
+          289,
+          3
+        ],
+        "base_quat": [
+          289,
+          4
+        ],
+        "base_linear_velocity": [
+          289,
+          3
+        ],
+        "base_angular_velocity": [
+          289,
+          3
+        ],
+        "joint_position": [
+          289,
+          29
+        ],
+        "joint_velocity": [
+          289,
+          29
+        ],
+        "link_position": [
+          289,
+          6,
+          3
+        ],
+        "box_pos_local": [
+          289,
+          3
+        ],
+        "box_height_global": [
+          289
+        ]
+      },
+      "box_local_std": [
+        7.62939453125E-06,
+        1.33514404296875E-05,
+        0.0
+      ],
+      "box_world_raw_before_ground_bias": {
+        "start": [
+          -7.838750839233398,
+          -9.532757759094238,
+          0.7654311656951904
+        ],
+        "end": [
+          -10.062971115112305,
+          -11.740982055664062,
+          0.7496273517608643
+        ],
+        "z_range": [
+          0.7340112924575806,
+          0.7889485359191895
+        ],
+        "path_length": 3.7083539962768555
+      },
+      "box_note": "base_position + box_pos_local; get_obj_motion_state additionally applies z -= (base_position_z - base_height), z += 0.05; object orientation is derived from root yaw."
+    },
+    {
+      "path": "dataset_carrybox/loco_direction/B12_-_walk_turn_right_(90)_stageii.pt",
+      "frames": 263,
+      "fps": 60.0,
+      "seconds": 4.383333333333334,
+      "span_seconds": 4.366666666666666,
+      "displacement_xy": [
+        3.4516921043395996,
+        0.5702558159828186
+      ],
+      "distance_xy": 3.498481035232544,
+      "path_length_xy": 3.7268667221069336,
+      "yaw_change_deg": -111.76703643798828,
+      "mean_speed": 0.8540099263191223,
+      "p95_speed": 1.0839903473854064,
+      "start_end_halfsec_speed": [
+        0.7082016468048096,
+        0.8729618191719055
+      ],
+      "start_end_halfsec_yawrate": [
+        1.8915724754333496,
+        0.6872338652610779
+      ],
+      "start_end_halfsec_leg_qvel_rms": [
+        1.996817708015442,
+        1.5574146509170532
+      ],
+      "root_z_range": [
+        0.6846449971199036,
+        0.767074465751648
+      ],
+      "finite": true,
+      "direction_segments": {
+        "forward": {
+          "seconds": 0.0,
+          "runs": []
+        },
+        "backward": {
+          "seconds": 0.0,
+          "runs": []
+        },
+        "left": {
+          "seconds": 0.0,
+          "runs": []
+        },
+        "right": {
+          "seconds": 0.0,
+          "runs": []
+        }
+      },
+      "fps_source": "PhysHSI task config frame_rate=60; PT has no fps field",
+      "schema": {
+        "base_height": [
+          263
+        ],
+        "base_position": [
+          263,
+          3
+        ],
+        "base_quat": [
+          263,
+          4
+        ],
+        "base_linear_velocity": [
+          263,
+          3
+        ],
+        "base_angular_velocity": [
+          263,
+          3
+        ],
+        "joint_position": [
+          263,
+          29
+        ],
+        "joint_velocity": [
+          263,
+          29
+        ],
+        "link_position": [
+          263,
+          6,
+          3
+        ],
+        "box_pos_local": [
+          263,
+          3
+        ],
+        "box_height_global": [
+          263
+        ]
+      },
+      "box_local_std": [
+        4.100799560546875E-05,
+        9.5367431640625E-07,
+        0.0
+      ],
+      "box_world_raw_before_ground_bias": {
+        "start": [
+          12.10875415802002,
+          0.40258556604385376,
+          0.7382343411445618
+        ],
+        "end": [
+          15.560446739196777,
+          0.9728413820266724,
+          0.6846449971199036
+        ],
+        "z_range": [
+          0.6846449971199036,
+          0.767074465751648
+        ],
+        "path_length": 3.775979518890381
+      },
+      "box_note": "base_position + box_pos_local; get_obj_motion_state additionally applies z -= (base_position_z - base_height), z += 0.05; object orientation is derived from root yaw."
+    },
+    {
+      "path": "dataset_carrybox/loco_direction/B13_-_walk_turn_right_(45)_stageii.pt",
+      "frames": 256,
+      "fps": 60.0,
+      "seconds": 4.266666666666667,
+      "span_seconds": 4.25,
+      "displacement_xy": [
+        2.7400062084198,
+        2.587390899658203
+      ],
+      "distance_xy": 3.7685840129852295,
+      "path_length_xy": 3.8569416999816895,
+      "yaw_change_deg": -34.61445236206055,
+      "mean_speed": 0.9074797034263611,
+      "p95_speed": 1.1110729277133942,
+      "start_end_halfsec_speed": [
+        0.8696616291999817,
+        0.8954464793205261
+      ],
+      "start_end_halfsec_yawrate": [
+        0.7662206888198853,
+        0.5618622303009033
+      ],
+      "start_end_halfsec_leg_qvel_rms": [
+        1.6926171779632568,
+        2.028817653656006
+      ],
+      "root_z_range": [
+        0.6983558535575867,
+        0.7683830857276917
+      ],
+      "finite": true,
+      "direction_segments": {
+        "forward": {
+          "seconds": 0.0,
+          "runs": []
+        },
+        "backward": {
+          "seconds": 0.0,
+          "runs": []
+        },
+        "left": {
+          "seconds": 0.0,
+          "runs": []
+        },
+        "right": {
+          "seconds": 0.0,
+          "runs": []
+        }
+      },
+      "fps_source": "PhysHSI task config frame_rate=60; PT has no fps field",
+      "schema": {
+        "base_height": [
+          256
+        ],
+        "base_position": [
+          256,
+          3
+        ],
+        "base_quat": [
+          256,
+          4
+        ],
+        "base_linear_velocity": [
+          256,
+          3
+        ],
+        "base_angular_velocity": [
+          256,
+          3
+        ],
+        "joint_position": [
+          256,
+          29
+        ],
+        "joint_velocity": [
+          256,
+          29
+        ],
+        "link_position": [
+          256,
+          6,
+          3
+        ],
+        "box_pos_local": [
+          256,
+          3
+        ],
+        "box_height_global": [
+          256
+        ]
+      },
+      "box_local_std": [
+        8.58306884765625E-06,
+        1.9073486328125E-05,
+        0.0
+      ],
+      "box_world_raw_before_ground_bias": {
+        "start": [
+          9.455653190612793,
+          8.567144393920898,
+          0.7621011137962341
+        ],
+        "end": [
+          12.195658683776855,
+          11.154535293579102,
+          0.7045466899871826
+        ],
+        "z_range": [
+          0.6983558535575867,
+          0.7683830857276917
+        ],
+        "path_length": 3.912936210632324
+      },
+      "box_note": "base_position + box_pos_local; get_obj_motion_state additionally applies z -= (base_position_z - base_height), z += 0.05; object orientation is derived from root yaw."
+    },
+    {
+      "path": "dataset_carrybox/loco_direction/B14_-_walk_turn_right_(135)_stageii.pt",
+      "frames": 321,
+      "fps": 60.0,
+      "seconds": 5.35,
+      "span_seconds": 5.333333333333333,
+      "displacement_xy": [
+        2.8224494457244873,
+        -2.210019826889038
+      ],
+      "distance_xy": 3.5847465991973877,
+      "path_length_xy": 4.15972900390625,
+      "yaw_change_deg": -119.05443572998047,
+      "mean_speed": 0.7796000838279724,
+      "p95_speed": 1.0878669023513794,
+      "start_end_halfsec_speed": [
+        0.677142322063446,
+        0.8468949794769287
+      ],
+      "start_end_halfsec_yawrate": [
+        0.4013310372829437,
+        0.6300239562988281
+      ],
+      "start_end_halfsec_leg_qvel_rms": [
+        1.874760389328003,
+        2.039504051208496
+      ],
+      "root_z_range": [
+        0.7227133512496948,
+        0.774135947227478
+      ],
+      "finite": true,
+      "direction_segments": {
+        "forward": {
+          "seconds": 0.0,
+          "runs": []
+        },
+        "backward": {
+          "seconds": 0.0,
+          "runs": []
+        },
+        "left": {
+          "seconds": 0.0,
+          "runs": []
+        },
+        "right": {
+          "seconds": 0.0,
+          "runs": []
+        }
+      },
+      "fps_source": "PhysHSI task config frame_rate=60; PT has no fps field",
+      "schema": {
+        "base_height": [
+          321
+        ],
+        "base_position": [
+          321,
+          3
+        ],
+        "base_quat": [
+          321,
+          4
+        ],
+        "base_linear_velocity": [
+          321,
+          3
+        ],
+        "base_angular_velocity": [
+          321,
+          3
+        ],
+        "joint_position": [
+          321,
+          29
+        ],
+        "joint_velocity": [
+          321,
+          29
+        ],
+        "link_position": [
+          321,
+          6,
+          3
+        ],
+        "box_pos_local": [
+          321,
+          3
+        ],
+        "box_height_global": [
+          321
+        ]
+      },
+      "box_local_std": [
+        6.67572021484375E-06,
+        1.9073486328125E-06,
+        0.0
+      ],
+      "box_world_raw_before_ground_bias": {
+        "start": [
+          8.426353454589844,
+          -8.809846878051758,
+          0.765819787979126
+        ],
+        "end": [
+          11.24880313873291,
+          -11.019866943359375,
+          0.7370378971099854
+        ],
+        "z_range": [
+          0.7227133512496948,
+          0.774135947227478
+        ],
+        "path_length": 4.221283435821533
+      },
+      "box_note": "base_position + box_pos_local; get_obj_motion_state additionally applies z -= (base_position_z - base_height), z += 0.05; object orientation is derived from root yaw."
+    },
+    {
+      "path": "dataset_carrybox/loco_direction/B15_-_walk_turn_around_(same_direction)_stageii.pt",
+      "frames": 329,
+      "fps": 60.0,
+      "seconds": 5.483333333333333,
+      "span_seconds": 5.466666666666667,
+      "displacement_xy": [
+        -0.18783171474933624,
+        -3.2369186878204346
+      ],
+      "distance_xy": 3.242363929748535,
+      "path_length_xy": 3.7762913703918457,
+      "yaw_change_deg": 157.68504333496094,
+      "mean_speed": 0.6911616325378418,
+      "p95_speed": 1.0535223007202148,
+      "start_end_halfsec_speed": [
+        0.39628899097442627,
+        0.7977609038352966
+      ],
+      "start_end_halfsec_yawrate": [
+        1.8474799394607544,
+        0.7478484511375427
+      ],
+      "start_end_halfsec_leg_qvel_rms": [
+        1.4883671998977661,
+        1.5833877325057983
+      ],
+      "root_z_range": [
+        0.7315818071365356,
+        0.7782831788063049
+      ],
+      "finite": true,
+      "direction_segments": {
+        "forward": {
+          "seconds": 0.0,
+          "runs": []
+        },
+        "backward": {
+          "seconds": 0.0,
+          "runs": []
+        },
+        "left": {
+          "seconds": 0.0,
+          "runs": []
+        },
+        "right": {
+          "seconds": 0.0,
+          "runs": []
+        }
+      },
+      "fps_source": "PhysHSI task config frame_rate=60; PT has no fps field",
+      "schema": {
+        "base_height": [
+          329
+        ],
+        "base_position": [
+          329,
+          3
+        ],
+        "base_quat": [
+          329,
+          4
+        ],
+        "base_linear_velocity": [
+          329,
+          3
+        ],
+        "base_angular_velocity": [
+          329,
+          3
+        ],
+        "joint_position": [
+          329,
+          29
+        ],
+        "joint_velocity": [
+          329,
+          29
+        ],
+        "link_position": [
+          329,
+          6,
+          3
+        ],
+        "box_pos_local": [
+          329,
+          3
+        ],
+        "box_height_global": [
+          329
+        ]
+      },
+      "box_local_std": [
+        2.60770320892334E-08,
+        3.24249267578125E-05,
+        0.0
+      ],
+      "box_world_raw_before_ground_bias": {
+        "start": [
+          -0.10300974547863007,
+          -11.33446979522705,
+          0.7433228492736816
+        ],
+        "end": [
+          -0.2908414602279663,
+          -14.571388244628906,
+          0.7337197065353394
+        ],
+        "z_range": [
+          0.7315818071365356,
+          0.7782831788063049
+        ],
+        "path_length": 3.825068950653076
+      },
+      "box_note": "base_position + box_pos_local; get_obj_motion_state additionally applies z -= (base_position_z - base_height), z += 0.05; object orientation is derived from root yaw."
+    },
+    {
+      "path": "dataset_carrybox/loco_direction/B1_-_stand_to_walk_stageii.pt",
+      "frames": 342,
+      "fps": 60.0,
+      "seconds": 5.7,
+      "span_seconds": 5.683333333333334,
+      "displacement_xy": [
+        0.2112794816493988,
+        2.791242837905884
+      ],
+      "distance_xy": 2.799227714538574,
+      "path_length_xy": 2.8418147563934326,
+      "yaw_change_deg": 4.483909606933594,
+      "mean_speed": 0.4991019666194916,
+      "p95_speed": 0.8807024151086807,
+      "start_end_halfsec_speed": [
+        0.014128961600363255,
+        0.6456682085990906
+      ],
+      "start_end_halfsec_yawrate": [
+        0.03539729118347168,
+        0.38570767641067505
+      ],
+      "start_end_halfsec_leg_qvel_rms": [
+        0.05496060475707054,
+        1.3275483846664429
+      ],
+      "root_z_range": [
+        0.7180829048156738,
+        0.7735319137573242
+      ],
+      "finite": true,
+      "direction_segments": {
+        "forward": {
+          "seconds": 0.0,
+          "runs": []
+        },
+        "backward": {
+          "seconds": 0.0,
+          "runs": []
+        },
+        "left": {
+          "seconds": 0.0,
+          "runs": []
+        },
+        "right": {
+          "seconds": 0.0,
+          "runs": []
+        }
+      },
+      "fps_source": "PhysHSI task config frame_rate=60; PT has no fps field",
+      "schema": {
+        "base_height": [
+          342
+        ],
+        "base_position": [
+          342,
+          3
+        ],
+        "base_quat": [
+          342,
+          4
+        ],
+        "base_linear_velocity": [
+          342,
+          3
+        ],
+        "base_angular_velocity": [
+          342,
+          3
+        ],
+        "joint_position": [
+          342,
+          29
+        ],
+        "joint_velocity": [
+          342,
+          29
+        ],
+        "link_position": [
+          342,
+          6,
+          3
+        ],
+        "box_pos_local": [
+          342,
+          3
+        ],
+        "box_height_global": [
+          342
+        ]
+      },
+      "box_local_std": [
+        1.043081283569336E-06,
+        2.09808349609375E-05,
+        0.0
+      ],
+      "box_world_raw_before_ground_bias": {
+        "start": [
+          0.18700574338436127,
+          13.217726707458496,
+          0.7731897234916687
+        ],
+        "end": [
+          0.3982852101325989,
+          16.008968353271484,
+          0.7370148301124573
+        ],
+        "z_range": [
+          0.7180829048156738,
+          0.7735319137573242
+        ],
+        "path_length": 2.877913475036621
+      },
+      "box_note": "base_position + box_pos_local; get_obj_motion_state additionally applies z -= (base_position_z - base_height), z += 0.05; object orientation is derived from root yaw."
+    },
+    {
+      "path": "dataset_carrybox/loco_direction/B2_-_walk_to_stand_stageii.pt",
+      "frames": 340,
+      "fps": 60.0,
+      "seconds": 5.666666666666667,
+      "span_seconds": 5.65,
+      "displacement_xy": [
+        -0.047831762582063675,
+        2.91313099861145
+      ],
+      "distance_xy": 2.9135236740112305,
+      "path_length_xy": 3.0188703536987305,
+      "yaw_change_deg": -33.61402130126953,
+      "mean_speed": 0.5319525003433228,
+      "p95_speed": 0.9318014442920686,
+      "start_end_halfsec_speed": [
+        0.5227182507514954,
+        0.01648978516459465
+      ],
+      "start_end_halfsec_yawrate": [
+        1.4062707424163818,
+        0.08156120777130127
+      ],
+      "start_end_halfsec_leg_qvel_rms": [
+        1.8317598104476929,
+        0.049929678440093994
+      ],
+      "root_z_range": [
+        0.7347983717918396,
+        0.7799651622772217
+      ],
+      "finite": true,
+      "direction_segments": {
+        "forward": {
+          "seconds": 0.0,
+          "runs": []
+        },
+        "backward": {
+          "seconds": 0.0,
+          "runs": []
+        },
+        "left": {
+          "seconds": 0.0,
+          "runs": []
+        },
+        "right": {
+          "seconds": 0.0,
+          "runs": []
+        }
+      },
+      "fps_source": "PhysHSI task config frame_rate=60; PT has no fps field",
+      "schema": {
+        "base_height": [
+          340
+        ],
+        "base_position": [
+          340,
+          3
+        ],
+        "base_quat": [
+          340,
+          4
+        ],
+        "base_linear_velocity": [
+          340,
+          3
+        ],
+        "base_angular_velocity": [
+          340,
+          3
+        ],
+        "joint_position": [
+          340,
+          29
+        ],
+        "joint_velocity": [
+          340,
+          29
+        ],
+        "link_position": [
+          340,
+          6,
+          3
+        ],
+        "box_pos_local": [
+          340,
+          3
+        ],
+        "box_height_global": [
+          340
+        ]
+      },
+      "box_local_std": [
+        3.0994415283203125E-06,
+        3.337860107421875E-05,
+        0.0
+      ],
+      "box_world_raw_before_ground_bias": {
+        "start": [
+          -1.4452613592147827,
+          7.986180305480957,
+          0.7596045136451721
+        ],
+        "end": [
+          -1.4930931329727173,
+          10.899311065673828,
+          0.7596492171287537
+        ],
+        "z_range": [
+          0.7347983717918396,
+          0.7799651622772217
+        ],
+        "path_length": 3.062138557434082
+      },
+      "box_note": "base_position + box_pos_local; get_obj_motion_state additionally applies z -= (base_position_z - base_height), z += 0.05; object orientation is derived from root yaw."
+    },
+    {
+      "path": "dataset_carrybox/loco_direction/B2_-_walk_to_stand_t2_stageii.pt",
+      "frames": 293,
+      "fps": 60.0,
+      "seconds": 4.883333333333334,
+      "span_seconds": 4.866666666666666,
+      "displacement_xy": [
+        0.0730501115322113,
+        2.7587106227874756
+      ],
+      "distance_xy": 2.7596776485443115,
+      "path_length_xy": 2.7999863624572754,
+      "yaw_change_deg": 4.144688129425049,
+      "mean_speed": 0.5745159983634949,
+      "p95_speed": 0.9653924465179443,
+      "start_end_halfsec_speed": [
+        0.6331359148025513,
+        0.03923345357179642
+      ],
+      "start_end_halfsec_yawrate": [
+        0.38274097442626953,
+        0.28410258889198303
+      ],
+      "start_end_halfsec_leg_qvel_rms": [
+        1.7946890592575073,
+        0.13497644662857056
+      ],
+      "root_z_range": [
+        0.7332047820091248,
+        0.7795314788818359
+      ],
+      "finite": true,
+      "direction_segments": {
+        "forward": {
+          "seconds": 0.5166666666666667,
+          "runs": [
+            [
+              204,
+              235
+            ]
+          ]
+        },
+        "backward": {
+          "seconds": 0.0,
+          "runs": []
+        },
+        "left": {
+          "seconds": 0.0,
+          "runs": []
+        },
+        "right": {
+          "seconds": 0.0,
+          "runs": []
+        }
+      },
+      "fps_source": "PhysHSI task config frame_rate=60; PT has no fps field",
+      "schema": {
+        "base_height": [
+          293
+        ],
+        "base_position": [
+          293,
+          3
+        ],
+        "base_quat": [
+          293,
+          4
+        ],
+        "base_linear_velocity": [
+          293,
+          3
+        ],
+        "base_angular_velocity": [
+          293,
+          3
+        ],
+        "joint_position": [
+          293,
+          29
+        ],
+        "joint_velocity": [
+          293,
+          29
+        ],
+        "link_position": [
+          293,
+          6,
+          3
+        ],
+        "box_pos_local": [
+          293,
+          3
+        ],
+        "box_height_global": [
+          293
+        ]
+      },
+      "box_local_std": [
+        5.811452865600586E-07,
+        2.86102294921875E-05,
+        0.0
+      ],
+      "box_world_raw_before_ground_bias": {
+        "start": [
+          -0.24156567454338074,
+          7.994002819061279,
+          0.75014328956604
+        ],
+        "end": [
+          -0.16851556301116943,
+          10.752713203430176,
+          0.7716975212097168
+        ],
+        "z_range": [
+          0.7332047820091248,
+          0.7795314788818359
+        ],
+        "path_length": 2.8371222019195557
+      },
+      "box_note": "base_position + box_pos_local; get_obj_motion_state additionally applies z -= (base_position_z - base_height), z += 0.05; object orientation is derived from root yaw."
+    },
+    {
+      "path": "dataset_carrybox/loco_direction/B3_-_walk1_stageii.pt",
+      "frames": 456,
+      "fps": 60.0,
+      "seconds": 7.6,
+      "span_seconds": 7.583333333333333,
+      "displacement_xy": [
+        -4.664915561676025,
+        -4.624799728393555
+      ],
+      "distance_xy": 6.568881988525391,
+      "path_length_xy": 6.5815534591674805,
+      "yaw_change_deg": 0.77364182472229,
+      "mean_speed": 0.8679536581039429,
+      "p95_speed": 1.0673132836818695,
+      "start_end_halfsec_speed": [
+        0.8080402612686157,
+        0.8907953500747681
+      ],
+      "start_end_halfsec_yawrate": [
+        0.4272019565105438,
+        0.686133623123169
+      ],
+      "start_end_halfsec_leg_qvel_rms": [
+        1.9762301445007324,
+        1.7121332883834839
+      ],
+      "root_z_range": [
+        0.6927052140235901,
+        0.7908047437667847
+      ],
+      "finite": true,
+      "direction_segments": {
+        "forward": {
+          "seconds": 0.0,
+          "runs": []
+        },
+        "backward": {
+          "seconds": 0.0,
+          "runs": []
+        },
+        "left": {
+          "seconds": 0.0,
+          "runs": []
+        },
+        "right": {
+          "seconds": 0.0,
+          "runs": []
+        }
+      },
+      "fps_source": "PhysHSI task config frame_rate=60; PT has no fps field",
+      "schema": {
+        "base_height": [
+          456
+        ],
+        "base_position": [
+          456,
+          3
+        ],
+        "base_quat": [
+          456,
+          4
+        ],
+        "base_linear_velocity": [
+          456,
+          3
+        ],
+        "base_angular_velocity": [
+          456,
+          3
+        ],
+        "joint_position": [
+          456,
+          29
+        ],
+        "joint_velocity": [
+          456,
+          29
+        ],
+        "link_position": [
+          456,
+          6,
+          3
+        ],
+        "box_pos_local": [
+          456,
+          3
+        ],
+        "box_height_global": [
+          456
+        ]
+      },
+      "box_local_std": [
+        3.910064697265625E-05,
+        2.86102294921875E-06,
+        0.0
+      ],
+      "box_world_raw_before_ground_bias": {
+        "start": [
+          -6.072885513305664,
+          -5.748435020446777,
+          0.6927052140235901
+        ],
+        "end": [
+          -10.737800598144531,
+          -10.373234748840332,
+          0.7583218216896057
+        ],
+        "z_range": [
+          0.6927052140235901,
+          0.7908047437667847
+        ],
+        "path_length": 6.679335117340088
+      },
+      "box_note": "base_position + box_pos_local; get_obj_motion_state additionally applies z -= (base_position_z - base_height), z += 0.05; object orientation is derived from root yaw."
+    },
+    {
+      "path": "dataset_carrybox/loco_direction/B9_-_walk_turn_left_(90)_stageii.pt",
+      "frames": 214,
+      "fps": 60.0,
+      "seconds": 3.566666666666667,
+      "span_seconds": 3.55,
+      "displacement_xy": [
+        -2.5968756675720215,
+        0.5227802395820618
+      ],
+      "distance_xy": 2.6489739418029785,
+      "path_length_xy": 2.868330478668213,
+      "yaw_change_deg": 97.64706420898438,
+      "mean_speed": 0.8078637719154358,
+      "p95_speed": 1.0579577147960664,
+      "start_end_halfsec_speed": [
+        0.6863647699356079,
+        0.8833788633346558
+      ],
+      "start_end_halfsec_yawrate": [
+        0.8757656812667847,
+        0.6535753607749939
+      ],
+      "start_end_halfsec_leg_qvel_rms": [
+        1.698740839958191,
+        1.6713452339172363
+      ],
+      "root_z_range": [
+        0.7301512956619263,
+        0.786465048789978
+      ],
+      "finite": true,
+      "direction_segments": {
+        "forward": {
+          "seconds": 0.0,
+          "runs": []
+        },
+        "backward": {
+          "seconds": 0.0,
+          "runs": []
+        },
+        "left": {
+          "seconds": 0.0,
+          "runs": []
+        },
+        "right": {
+          "seconds": 0.0,
+          "runs": []
+        }
+      },
+      "fps_source": "PhysHSI task config frame_rate=60; PT has no fps field",
+      "schema": {
+        "base_height": [
+          214
+        ],
+        "base_position": [
+          214,
+          3
+        ],
+        "base_quat": [
+          214,
+          4
+        ],
+        "base_linear_velocity": [
+          214,
+          3
+        ],
+        "base_angular_velocity": [
+          214,
+          3
+        ],
+        "joint_position": [
+          214,
+          29
+        ],
+        "joint_velocity": [
+          214,
+          29
+        ],
+        "link_position": [
+          214,
+          6,
+          3
+        ],
+        "box_pos_local": [
+          214,
+          3
+        ],
+        "box_height_global": [
+          214
+        ]
+      },
+      "box_local_std": [
+        2.193450927734375E-05,
+        9.5367431640625E-07,
+        0.0
+      ],
+      "box_world_raw_before_ground_bias": {
+        "start": [
+          -12.169207572937012,
+          0.7473270893096924,
+          0.7667210102081299
+        ],
+        "end": [
+          -14.766082763671875,
+          1.2701072692871094,
+          0.7525273561477661
+        ],
+        "z_range": [
+          0.7301512956619263,
+          0.786465048789978
+        ],
+        "path_length": 2.9110817909240723
+      },
+      "box_note": "base_position + box_pos_local; get_obj_motion_state additionally applies z -= (base_position_z - base_height), z += 0.05; object orientation is derived from root yaw."
+    },
+    {
+      "path": "dataset_carrybox/pickUp/pickup1.pt",
+      "frames": 192,
+      "fps": 60.0,
+      "seconds": 3.2,
+      "span_seconds": 3.183333333333333,
+      "displacement_xy": [
+        0.3664362132549286,
+        0.19895890355110168
+      ],
+      "distance_xy": 0.41696539521217346,
+      "path_length_xy": 0.9069016575813293,
+      "yaw_change_deg": 65.66547393798828,
+      "mean_speed": 0.2859039306640625,
+      "p95_speed": 0.6115501374006269,
+      "start_end_halfsec_speed": [
+        0.5507664084434509,
+        0.35650667548179626
+      ],
+      "start_end_halfsec_yawrate": [
+        0.20977817475795746,
+        0.9356482625007629
+      ],
+      "start_end_halfsec_leg_qvel_rms": [
+        1.241286277770996,
+        1.1658157110214233
+      ],
+      "root_z_range": [
+        0.4072725474834442,
+        0.7779989242553711
+      ],
+      "finite": true,
+      "direction_segments": {
+        "forward": {
+          "seconds": 0.65,
+          "runs": [
+            [
+              0,
+              39
+            ]
+          ]
+        },
+        "backward": {
+          "seconds": 0.0,
+          "runs": []
+        },
+        "left": {
+          "seconds": 0.0,
+          "runs": []
+        },
+        "right": {
+          "seconds": 0.0,
+          "runs": []
+        }
+      },
+      "fps_source": "PhysHSI task config frame_rate=60; PT has no fps field",
+      "schema": {
+        "base_height": [
+          192
+        ],
+        "base_position": [
+          192,
+          3
+        ],
+        "base_quat": [
+          192,
+          4
+        ],
+        "base_linear_velocity": [
+          192,
+          3
+        ],
+        "base_angular_velocity": [
+          192,
+          3
+        ],
+        "joint_position": [
+          192,
+          29
+        ],
+        "joint_velocity": [
+          192,
+          29
+        ],
+        "link_position": [
+          192,
+          6,
+          3
+        ],
+        "box_pos_local": [
+          192,
+          3
+        ],
+        "contact_index": 107
+      },
+      "box_local_std": [
+        0.17435768349222394,
+        0.12645430159321872,
+        0.17618207533453625
+      ],
+      "box_world_raw_before_ground_bias": {
+        "start": [
+          0.7282137663468085,
+          0.15312983129945223,
+          0.367963422518557
+        ],
+        "end": [
+          0.320171512301318,
+          0.6428624882417573,
+          0.879772212499243
+        ],
+        "z_range": [
+          0.3679620673894272,
+          0.879772212499243
+        ],
+        "path_length": 0.9376584262815737
+      },
+      "box_note": "base_position + box_pos_local; get_obj_motion_state additionally applies z -= (base_position_z - base_height), z += 0.05; object orientation is derived from root yaw."
+    },
+    {
+      "path": "dataset_carrybox/pickUp/pickup2.pt",
+      "frames": 178,
+      "fps": 60.0,
+      "seconds": 2.966666666666667,
+      "span_seconds": 2.95,
+      "displacement_xy": [
+        0.08456480503082275,
+        0.009292056784033775
+      ],
+      "distance_xy": 0.08507378399372101,
+      "path_length_xy": 0.5137587785720825,
+      "yaw_change_deg": 132.87252807617188,
+      "mean_speed": 0.17504370212554932,
+      "p95_speed": 0.361189766228199,
+      "start_end_halfsec_speed": [
+        0.3165411055088043,
+        0.27760547399520874
+      ],
+      "start_end_halfsec_yawrate": [
+        0.09722781181335449,
+        2.808847665786743
+      ],
+      "start_end_halfsec_leg_qvel_rms": [
+        1.0135806798934937,
+        1.7841473817825317
+      ],
+      "root_z_range": [
+        0.315787672996521,
+        0.7875942587852478
+      ],
+      "finite": true,
+      "direction_segments": {
+        "forward": {
+          "seconds": 0.5333333333333333,
+          "runs": [
+            [
+              0,
+              32
+            ]
+          ]
+        },
+        "backward": {
+          "seconds": 0.0,
+          "runs": []
+        },
+        "left": {
+          "seconds": 0.0,
+          "runs": []
+        },
+        "right": {
+          "seconds": 0.0,
+          "runs": []
+        }
+      },
+      "fps_source": "PhysHSI task config frame_rate=60; PT has no fps field",
+      "schema": {
+        "base_height": [
+          178
+        ],
+        "base_position": [
+          178,
+          3
+        ],
+        "base_quat": [
+          178,
+          4
+        ],
+        "base_linear_velocity": [
+          178,
+          3
+        ],
+        "base_angular_velocity": [
+          178,
+          3
+        ],
+        "joint_position": [
+          178,
+          29
+        ],
+        "joint_velocity": [
+          178,
+          29
+        ],
+        "link_position": [
+          178,
+          6,
+          3
+        ],
+        "box_pos_local": [
+          178,
+          3
+        ],
+        "contact_index": 100
+      },
+      "box_local_std": [
+        0.0909201729838786,
+        0.22495476398708045,
+        0.24987387366055835
+      ],
+      "box_world_raw_before_ground_bias": {
+        "start": [
+          0.24460737812760058,
+          -0.6252305600357646,
+          0.21769142150878906
+        ],
+        "end": [
+          0.33808325386343974,
+          0.27633649639171143,
+          0.8097976487865716
+        ],
+        "z_range": [
+          0.2176914117523523,
+          0.8817043713240379
+        ],
+        "path_length": 1.560877832121555
+      },
+      "box_note": "base_position + box_pos_local; get_obj_motion_state additionally applies z -= (base_position_z - base_height), z += 0.05; object orientation is derived from root yaw."
+    },
+    {
+      "path": "dataset_carrybox/pickUp/pickup3.pt",
+      "frames": 129,
+      "fps": 60.0,
+      "seconds": 2.15,
+      "span_seconds": 2.1333333333333333,
+      "displacement_xy": [
+        -0.15317054092884064,
+        0.019848071038722992
+      ],
+      "distance_xy": 0.1544511616230011,
+      "path_length_xy": 0.23864632844924927,
+      "yaw_change_deg": 68.50759887695312,
+      "mean_speed": 0.11184508353471756,
+      "p95_speed": 0.18756655156612395,
+      "start_end_halfsec_speed": [
+        0.12128229439258575,
+        0.12534424662590027
+      ],
+      "start_end_halfsec_yawrate": [
+        0.16891717910766602,
+        1.605604887008667
+      ],
+      "start_end_halfsec_leg_qvel_rms": [
+        1.2182050943374634,
+        1.043373703956604
+      ],
+      "root_z_range": [
+        0.34091612696647644,
+        0.7920631766319275
+      ],
+      "finite": true,
+      "direction_segments": {
+        "forward": {
+          "seconds": 0.0,
+          "runs": []
+        },
+        "backward": {
+          "seconds": 0.0,
+          "runs": []
+        },
+        "left": {
+          "seconds": 0.0,
+          "runs": []
+        },
+        "right": {
+          "seconds": 0.0,
+          "runs": []
+        }
+      },
+      "fps_source": "PhysHSI task config frame_rate=60; PT has no fps field",
+      "schema": {
+        "base_height": [
+          129
+        ],
+        "base_position": [
+          129,
+          3
+        ],
+        "base_quat": [
+          129,
+          4
+        ],
+        "base_linear_velocity": [
+          129,
+          3
+        ],
+        "base_angular_velocity": [
+          129,
+          3
+        ],
+        "joint_position": [
+          129,
+          29
+        ],
+        "joint_velocity": [
+          129,
+          29
+        ],
+        "link_position": [
+          129,
+          6,
+          3
+        ],
+        "box_pos_local": [
+          129,
+          3
+        ],
+        "contact_index": 42
+      },
+      "box_local_std": [
+        0.17598462005316318,
+        0.03310488453124484,
+        0.21970164216399712
+      ],
+      "box_world_raw_before_ground_bias": {
+        "start": [
+          -0.31445882716042206,
+          -0.44736898307899686,
+          0.13124759557400445
+        ],
+        "end": [
+          0.14941208720932053,
+          -0.26406637882792694,
+          0.8730930214234791
+        ],
+        "z_range": [
+          0.1312475808540911,
+          0.8730930214234791
+        ],
+        "path_length": 1.0195796555407295
+      },
+      "box_note": "base_position + box_pos_local; get_obj_motion_state additionally applies z -= (base_position_z - base_height), z += 0.05; object orientation is derived from root yaw."
+    },
+    {
+      "path": "dataset_carrybox/putDown/putdown1.pt",
+      "frames": 141,
+      "fps": 60.0,
+      "seconds": 2.35,
+      "span_seconds": 2.3333333333333335,
+      "displacement_xy": [
+        -0.04668249189853668,
+        -0.14333489537239075
+      ],
+      "distance_xy": 0.15074530243873596,
+      "path_length_xy": 0.26078495383262634,
+      "yaw_change_deg": 2.409601926803589,
+      "mean_speed": 0.11109204590320587,
+      "p95_speed": 0.21012604236602783,
+      "start_end_halfsec_speed": [
+        0.07706613838672638,
+        0.14681346714496613
+      ],
+      "start_end_halfsec_yawrate": [
+        0.13531804084777832,
+        1.5020370483398438E-05
+      ],
+      "start_end_halfsec_leg_qvel_rms": [
+        1.4220165014266968,
+        0.6934711337089539
+      ],
+      "root_z_range": [
+        0.29282116889953613,
+        0.8194060921669006
+      ],
+      "finite": true,
+      "direction_segments": {
+        "forward": {
+          "seconds": 0.6333333333333333,
+          "runs": [
+            [
+              93,
+              131
+            ]
+          ]
+        },
+        "backward": {
+          "seconds": 0.0,
+          "runs": []
+        },
+        "left": {
+          "seconds": 0.0,
+          "runs": []
+        },
+        "right": {
+          "seconds": 0.0,
+          "runs": []
+        }
+      },
+      "fps_source": "PhysHSI task config frame_rate=60; PT has no fps field",
+      "schema": {
+        "base_height": [
+          141
+        ],
+        "base_position": [
+          141,
+          3
+        ],
+        "base_quat": [
+          141,
+          4
+        ],
+        "base_linear_velocity": [
+          141,
+          3
+        ],
+        "base_angular_velocity": [
+          141,
+          3
+        ],
+        "joint_position": [
+          141,
+          29
+        ],
+        "joint_velocity": [
+          141,
+          29
+        ],
+        "link_position": [
+          141,
+          6,
+          3
+        ],
+        "box_pos_local": [
+          141,
+          3
+        ]
+      },
+      "box_local_std": [
+        0.027665745466947556,
+        0.04723331704735756,
+        0.20330281555652618
+      ],
+      "box_world_raw_before_ground_bias": {
+        "start": [
+          -0.07439020276069641,
+          -0.5505387783050537,
+          0.6600608229637146
+        ],
+        "end": [
+          -0.01729699969291687,
+          -0.6863422989845276,
+          0.19640612602233887
+        ],
+        "z_range": [
+          0.18349844217300415,
+          0.6600608229637146
+        ],
+        "path_length": 0.5320744514465332
+      },
+      "box_note": "base_position + box_pos_local; get_obj_motion_state additionally applies z -= (base_position_z - base_height), z += 0.05; object orientation is derived from root yaw."
+    },
+    {
+      "path": "dataset_carrybox/putDown/putdown2.pt",
+      "frames": 238,
+      "fps": 60.0,
+      "seconds": 3.966666666666667,
+      "span_seconds": 3.95,
+      "displacement_xy": [
+        -1.1398828029632568,
+        -1.094463586807251
+      ],
+      "distance_xy": 1.5802478790283203,
+      "path_length_xy": 1.696014642715454,
+      "yaw_change_deg": 12.404223442077637,
+      "mean_speed": 0.4301667809486389,
+      "p95_speed": 1.3034961044788358,
+      "start_end_halfsec_speed": [
+        1.147388219833374,
+        0.1926538497209549
+      ],
+      "start_end_halfsec_yawrate": [
+        0.6775066256523132,
+        3.337860107421875E-06
+      ],
+      "start_end_halfsec_leg_qvel_rms": [
+        2.019895315170288,
+        0.5316575765609741
+      ],
+      "root_z_range": [
+        0.7805718779563904,
+        0.9305683374404907
+      ],
+      "finite": true,
+      "direction_segments": {
+        "forward": {
+          "seconds": 0.0,
+          "runs": []
+        },
+        "backward": {
+          "seconds": 0.0,
+          "runs": []
+        },
+        "left": {
+          "seconds": 0.0,
+          "runs": []
+        },
+        "right": {
+          "seconds": 0.0,
+          "runs": []
+        }
+      },
+      "fps_source": "PhysHSI task config frame_rate=60; PT has no fps field",
+      "schema": {
+        "base_height": [
+          238
+        ],
+        "base_position": [
+          238,
+          3
+        ],
+        "base_quat": [
+          238,
+          4
+        ],
+        "base_linear_velocity": [
+          238,
+          3
+        ],
+        "base_angular_velocity": [
+          238,
+          3
+        ],
+        "joint_position": [
+          238,
+          29
+        ],
+        "joint_velocity": [
+          238,
+          29
+        ],
+        "link_position": [
+          238,
+          6,
+          3
+        ],
+        "box_pos_local": [
+          238,
+          3
+        ]
+      },
+      "box_local_std": [
+        0.11911756545305252,
+        0.08836444467306137,
+        0.15244826674461365
+      ],
+      "box_world_raw_before_ground_bias": {
+        "start": [
+          1.206200122833252,
+          1.4593368768692017,
+          0.9654467105865479
+        ],
+        "end": [
+          -0.19717508554458618,
+          0.32205912470817566,
+          0.5861917734146118
+        ],
+        "z_range": [
+          0.5861917734146118,
+          1.0337119102478027
+        ],
+        "path_length": 2.0887184143066406
+      },
+      "box_note": "base_position + box_pos_local; get_obj_motion_state additionally applies z -= (base_position_z - base_height), z += 0.05; object orientation is derived from root yaw."
+    },
+    {
+      "path": "dataset_styleloco/Dinosaur_BW.pt",
+      "frames": 1497,
+      "fps": 60.0,
+      "seconds": 24.95,
+      "span_seconds": 24.933333333333334,
+      "displacement_xy": [
+        0.016550898551940918,
+        0.5966972708702087
+      ],
+      "distance_xy": 0.596926748752594,
+      "path_length_xy": 8.125663757324219,
+      "yaw_change_deg": 222.36550903320312,
+      "mean_speed": 0.32547932863235474,
+      "p95_speed": 0.5290659070014954,
+      "start_end_halfsec_speed": [
+        0.2416967898607254,
+        0.4130842983722687
+      ],
+      "start_end_halfsec_yawrate": [
+        0.14097009599208832,
+        0.2120518684387207
+      ],
+      "start_end_halfsec_leg_qvel_rms": [
+        0.8751155734062195,
+        1.1923733949661255
+      ],
+      "root_z_range": [
+        0.7601497769355774,
+        0.8246008157730103
+      ],
+      "finite": true,
+      "direction_segments": {
+        "forward": {
+          "seconds": 0.0,
+          "runs": []
+        },
+        "backward": {
+          "seconds": 3.566666666666667,
+          "runs": [
+            [
+              103,
+              136
+            ],
+            [
+              374,
+              419
+            ],
+            [
+              832,
+              862
+            ],
+            [
+              868,
+              899
+            ],
+            [
+              1258,
+              1288
+            ],
+            [
+              1410,
+              1455
+            ]
+          ]
+        },
+        "left": {
+          "seconds": 0.0,
+          "runs": []
+        },
+        "right": {
+          "seconds": 0.0,
+          "runs": []
+        }
+      },
+      "fps_source": "PhysHSI task config frame_rate=60; PT has no fps field",
+      "schema": {
+        "base_height": [
+          1497
+        ],
+        "base_position": [
+          1497,
+          3
+        ],
+        "base_quat": [
+          1497,
+          4
+        ],
+        "base_linear_velocity": [
+          1497,
+          3
+        ],
+        "base_angular_velocity": [
+          1497,
+          3
+        ],
+        "joint_position": [
+          1497,
+          29
+        ],
+        "joint_velocity": [
+          1497,
+          29
+        ],
+        "link_position": [
+          1497,
+          6,
+          3
+        ]
+      }
+    },
+    {
+      "path": "dataset_styleloco/Dinosaur_FW.pt",
+      "frames": 1497,
+      "fps": 60.0,
+      "seconds": 24.95,
+      "span_seconds": 24.933333333333334,
+      "displacement_xy": [
+        0.46771299839019775,
+        -1.930018424987793
+      ],
+      "distance_xy": 1.9858818054199219,
+      "path_length_xy": 10.868383407592773,
+      "yaw_change_deg": 139.87490844726562,
+      "mean_speed": 0.43562090396881104,
+      "p95_speed": 0.5989795565605164,
+      "start_end_halfsec_speed": [
+        0.4530683159828186,
+        0.4087647497653961
+      ],
+      "start_end_halfsec_yawrate": [
+        0.12757086753845215,
+        1.4981048107147217
+      ],
+      "start_end_halfsec_leg_qvel_rms": [
+        1.3060545921325684,
+        0.998124897480011
+      ],
+      "root_z_range": [
+        0.7410486936569214,
+        0.8223957419395447
+      ],
+      "finite": true,
+      "direction_segments": {
+        "forward": {
+          "seconds": 11.816666666666666,
+          "runs": [
+            [
+              192,
+              242
+            ],
+            [
+              245,
+              415
+            ],
+            [
+              417,
+              484
+            ],
+            [
+              639,
+              683
+            ],
+            [
+              698,
+              743
+            ],
+            [
+              844,
+              914
+            ],
+            [
+              916,
+              973
+            ],
+            [
+              1099,
+              1147
+            ],
+            [
+              1153,
+              1196
+            ],
+            [
+              1314,
+              1429
+            ]
+          ]
+        },
+        "backward": {
+          "seconds": 0.0,
+          "runs": []
+        },
+        "left": {
+          "seconds": 0.0,
+          "runs": []
+        },
+        "right": {
+          "seconds": 0.0,
+          "runs": []
+        }
+      },
+      "fps_source": "PhysHSI task config frame_rate=60; PT has no fps field",
+      "schema": {
+        "base_height": [
+          1497
+        ],
+        "base_position": [
+          1497,
+          3
+        ],
+        "base_quat": [
+          1497,
+          4
+        ],
+        "base_linear_velocity": [
+          1497,
+          3
+        ],
+        "base_angular_velocity": [
+          1497,
+          3
+        ],
+        "joint_position": [
+          1497,
+          29
+        ],
+        "joint_velocity": [
+          1497,
+          29
+        ],
+        "link_position": [
+          1497,
+          6,
+          3
+        ]
+      }
+    },
+    {
+      "path": "dataset_styleloco/Dinosaur_SW.pt",
+      "frames": 1497,
+      "fps": 60.0,
+      "seconds": 24.95,
+      "span_seconds": 24.933333333333334,
+      "displacement_xy": [
+        0.17491018772125244,
+        -0.9003559947013855
+      ],
+      "distance_xy": 0.9171883463859558,
+      "path_length_xy": 6.533642768859863,
+      "yaw_change_deg": -213.10719299316406,
+      "mean_speed": 0.2615114152431488,
+      "p95_speed": 0.594380259513855,
+      "start_end_halfsec_speed": [
+        0.39489901065826416,
+        0.19456277787685394
+      ],
+      "start_end_halfsec_yawrate": [
+        0.21939921379089355,
+        0.22696468234062195
+      ],
+      "start_end_halfsec_leg_qvel_rms": [
+        1.1603292226791382,
+        1.082655906677246
+      ],
+      "root_z_range": [
+        0.7467071413993835,
+        0.8343064188957214
+      ],
+      "finite": true,
+      "direction_segments": {
+        "forward": {
+          "seconds": 0.0,
+          "runs": []
+        },
+        "backward": {
+          "seconds": 0.0,
+          "runs": []
+        },
+        "left": {
+          "seconds": 0.6166666666666667,
+          "runs": [
+            [
+              1318,
+              1355
+            ]
+          ]
+        },
+        "right": {
+          "seconds": 4.016666666666667,
+          "runs": [
+            [
+              451,
+              481
+            ],
+            [
+              529,
+              565
+            ],
+            [
+              617,
+              650
+            ],
+            [
+              710,
+              747
+            ],
+            [
+              795,
+              831
+            ],
+            [
+              970,
+              1004
+            ],
+            [
+              1147,
+              1182
+            ]
+          ]
+        }
+      },
+      "fps_source": "PhysHSI task config frame_rate=60; PT has no fps field",
+      "schema": {
+        "base_height": [
+          1497
+        ],
+        "base_position": [
+          1497,
+          3
+        ],
+        "base_quat": [
+          1497,
+          4
+        ],
+        "base_linear_velocity": [
+          1497,
+          3
+        ],
+        "base_angular_velocity": [
+          1497,
+          3
+        ],
+        "joint_position": [
+          1497,
+          29
+        ],
+        "joint_velocity": [
+          1497,
+          29
+        ],
+        "link_position": [
+          1497,
+          6,
+          3
+        ]
+      }
+    },
+    {
+      "path": "dataset_styleloco/HighKnees_BW.pt",
+      "frames": 1297,
+      "fps": 60.0,
+      "seconds": 21.616666666666667,
+      "span_seconds": 21.6,
+      "displacement_xy": [
+        0.3832327127456665,
+        1.0903258323669434
+      ],
+      "distance_xy": 1.1557152271270752,
+      "path_length_xy": 7.153774261474609,
+      "yaw_change_deg": 413.9439697265625,
+      "mean_speed": 0.330417275428772,
+      "p95_speed": 0.5762389302253723,
+      "start_end_halfsec_speed": [
+        0.21976901590824127,
+        0.439054012298584
+      ],
+      "start_end_halfsec_yawrate": [
+        0.3691903352737427,
+        0.7918886542320251
+      ],
+      "start_end_halfsec_leg_qvel_rms": [
+        1.768047571182251,
+        2.0597023963928223
+      ],
+      "root_z_range": [
+        0.7972787618637085,
+        0.8377646207809448
+      ],
+      "finite": true,
+      "direction_segments": {
+        "forward": {
+          "seconds": 0.0,
+          "runs": []
+        },
+        "backward": {
+          "seconds": 0.0,
+          "runs": []
+        },
+        "left": {
+          "seconds": 0.0,
+          "runs": []
+        },
+        "right": {
+          "seconds": 0.0,
+          "runs": []
+        }
+      },
+      "fps_source": "PhysHSI task config frame_rate=60; PT has no fps field",
+      "schema": {
+        "base_height": [
+          1297
+        ],
+        "base_position": [
+          1297,
+          3
+        ],
+        "base_quat": [
+          1297,
+          4
+        ],
+        "base_linear_velocity": [
+          1297,
+          3
+        ],
+        "base_angular_velocity": [
+          1297,
+          3
+        ],
+        "joint_position": [
+          1297,
+          29
+        ],
+        "joint_velocity": [
+          1297,
+          29
+        ],
+        "link_position": [
+          1297,
+          6,
+          3
+        ]
+      }
+    },
+    {
+      "path": "dataset_styleloco/HighKnees_FW.pt",
+      "frames": 1297,
+      "fps": 60.0,
+      "seconds": 21.616666666666667,
+      "span_seconds": 21.6,
+      "displacement_xy": [
+        0.02093207836151123,
+        -1.0499165058135986
+      ],
+      "distance_xy": 1.0501251220703125,
+      "path_length_xy": 8.25985336303711,
+      "yaw_change_deg": -469.2594299316406,
+      "mean_speed": 0.381844162940979,
+      "p95_speed": 0.5987451076507568,
+      "start_end_halfsec_speed": [
+        0.43454039096832275,
+        0.29513853788375854
+      ],
+      "start_end_halfsec_yawrate": [
+        0.4358934164047241,
+        1.3161537647247314
+      ],
+      "start_end_halfsec_leg_qvel_rms": [
+        2.276740312576294,
+        1.9409290552139282
+      ],
+      "root_z_range": [
+        0.7957764267921448,
+        0.8378156423568726
+      ],
+      "finite": true,
+      "direction_segments": {
+        "forward": {
+          "seconds": 1.0166666666666666,
+          "runs": [
+            [
+              1100,
+              1130
+            ],
+            [
+              1193,
+              1224
+            ]
+          ]
+        },
+        "backward": {
+          "seconds": 0.0,
+          "runs": []
+        },
+        "left": {
+          "seconds": 0.0,
+          "runs": []
+        },
+        "right": {
+          "seconds": 0.0,
+          "runs": []
+        }
+      },
+      "fps_source": "PhysHSI task config frame_rate=60; PT has no fps field",
+      "schema": {
+        "base_height": [
+          1297
+        ],
+        "base_position": [
+          1297,
+          3
+        ],
+        "base_quat": [
+          1297,
+          4
+        ],
+        "base_linear_velocity": [
+          1297,
+          3
+        ],
+        "base_angular_velocity": [
+          1297,
+          3
+        ],
+        "joint_position": [
+          1297,
+          29
+        ],
+        "joint_velocity": [
+          1297,
+          29
+        ],
+        "link_position": [
+          1297,
+          6,
+          3
+        ]
+      }
+    },
+    {
+      "path": "dataset_styleloco/HighKnees_SW.pt",
+      "frames": 1297,
+      "fps": 60.0,
+      "seconds": 21.616666666666667,
+      "span_seconds": 21.6,
+      "displacement_xy": [
+        -0.3087576627731323,
+        -0.7339174151420593
+      ],
+      "distance_xy": 0.7962198853492737,
+      "path_length_xy": 6.105063438415527,
+      "yaw_change_deg": -250.92599487304688,
+      "mean_speed": 0.2819441556930542,
+      "p95_speed": 0.5906183123588562,
+      "start_end_halfsec_speed": [
+        0.3244694173336029,
+        0.18658478558063507
+      ],
+      "start_end_halfsec_yawrate": [
+        0.2537687122821808,
+        0.5331152081489563
+      ],
+      "start_end_halfsec_leg_qvel_rms": [
+        1.5677924156188965,
+        2.0124311447143555
+      ],
+      "root_z_range": [
+        0.8082603216171265,
+        0.8550440073013306
+      ],
+      "finite": true,
+      "direction_segments": {
+        "forward": {
+          "seconds": 0.0,
+          "runs": []
+        },
+        "backward": {
+          "seconds": 0.0,
+          "runs": []
+        },
+        "left": {
+          "seconds": 0.0,
+          "runs": []
+        },
+        "right": {
+          "seconds": 0.0,
+          "runs": []
+        }
+      },
+      "fps_source": "PhysHSI task config frame_rate=60; PT has no fps field",
+      "schema": {
+        "base_height": [
+          1297
+        ],
+        "base_position": [
+          1297,
+          3
+        ],
+        "base_quat": [
+          1297,
+          4
+        ],
+        "base_linear_velocity": [
+          1297,
+          3
+        ],
+        "base_angular_velocity": [
+          1297,
+          3
+        ],
+        "joint_position": [
+          1297,
+          29
+        ],
+        "joint_velocity": [
+          1297,
+          29
+        ],
+        "link_position": [
+          1297,
+          6,
+          3
+        ]
+      }
+    }
+  ],
+  "root": "/data/AMASS_Retargeted_for_G1/g1",
+  "status": "kinematic_candidates_not_simulator_validated",
+  "selection_note": "Full clips; retain natural transitions. Root endpoint speed alone is insufficient for stable contact.",
+  "candidates": [
+    {
+      "path": "ACCAD/Male1Walking_c3d/WalkB22-Sidestepleft_poses_120_jpos.npz",
+      "frames": 139,
+      "fps": 30.0,
+      "seconds": 4.633333333333334,
+      "span_seconds": 4.6,
+      "displacement_xy": [
+        -0.7316159009933472,
+        0.004602694418281317
+      ],
+      "distance_xy": 0.7316303253173828,
+      "path_length_xy": 0.7836252450942993,
+      "yaw_change_deg": 5.394066333770752,
+      "mean_speed": 0.16812200844287872,
+      "p95_speed": 0.6862199902534482,
+      "start_end_halfsec_speed": [
+        0.008715128526091576,
+        0.007953701540827751
+      ],
+      "start_end_halfsec_yawrate": [
+        0.02809453010559082,
+        0.03731334209442139
+      ],
+      "start_end_halfsec_leg_qvel_rms": [
+        0.07242809236049652,
+        0.04407385736703873
+      ],
+      "root_z_range": [
+        0.6741416454315186,
+        0.7614353895187378
+      ],
+      "finite": true,
+      "direction_segments": {
+        "forward": {
+          "seconds": 0.0,
+          "runs": []
+        },
+        "backward": {
+          "seconds": 0.0,
+          "runs": []
+        },
+        "left": {
+          "seconds": 1.1666666666666667,
+          "runs": [
+            [
+              59,
+              78
+            ],
+            [
+              83,
+              99
+            ]
+          ]
+        },
+        "right": {
+          "seconds": 0.0,
+          "runs": []
+        }
+      },
+      "keys": [
+        "fps",
+        "dof_names",
+        "body_names",
+        "dof_positions",
+        "dof_velocities",
+        "body_positions",
+        "body_rotations",
+        "body_linear_velocities",
+        "body_angular_velocities"
+      ],
+      "recommendation": "priority_kinematic_candidate"
+    },
+    {
+      "path": "ACCAD/Male1Walking_c3d/WalkB23-Sidestepright_poses_120_jpos.npz",
+      "frames": 108,
+      "fps": 30.0,
+      "seconds": 3.6,
+      "span_seconds": 3.566666666666667,
+      "displacement_xy": [
+        0.6791810393333435,
+        -0.017559466883540154
+      ],
+      "distance_xy": 0.6794079542160034,
+      "path_length_xy": 0.7136400938034058,
+      "yaw_change_deg": -2.5800423622131348,
+      "mean_speed": 0.1982751488685608,
+      "p95_speed": 0.7797361552715297,
+      "start_end_halfsec_speed": [
+        0.06024285405874252,
+        0.0153984809294343
+      ],
+      "start_end_halfsec_yawrate": [
+        0.1175689697265625,
+        0.027018427848815918
+      ],
+      "start_end_halfsec_leg_qvel_rms": [
+        0.5541762113571167,
+        0.06720062345266342
+      ],
+      "root_z_range": [
+        0.6827796101570129,
+        0.7488492131233215
+      ],
+      "finite": true,
+      "direction_segments": {
+        "forward": {
+          "seconds": 0.0,
+          "runs": []
+        },
+        "backward": {
+          "seconds": 0.0,
+          "runs": []
+        },
+        "left": {
+          "seconds": 0.0,
+          "runs": []
+        },
+        "right": {
+          "seconds": 1.1333333333333333,
+          "runs": [
+            [
+              12,
+              46
+            ]
+          ]
+        }
+      },
+      "keys": [
+        "fps",
+        "dof_names",
+        "body_names",
+        "dof_positions",
+        "dof_velocities",
+        "body_positions",
+        "body_rotations",
+        "body_linear_velocities",
+        "body_angular_velocities"
+      ],
+      "recommendation": "candidate_start_leg_motion_requires_validation"
+    },
+    {
+      "path": "ACCAD/Male2Walking_c3d/B22-sidestepleft_poses_120_jpos.npz",
+      "frames": 74,
+      "fps": 30.0,
+      "seconds": 2.466666666666667,
+      "span_seconds": 2.433333333333333,
+      "displacement_xy": [
+        -0.5605158805847168,
+        -0.03832130506634712
+      ],
+      "distance_xy": 0.5618243217468262,
+      "path_length_xy": 0.5951781272888184,
+      "yaw_change_deg": 4.427881717681885,
+      "mean_speed": 0.24021068215370178,
+      "p95_speed": 0.8339032918214797,
+      "start_end_halfsec_speed": [
+        0.04839624837040901,
+        0.040189992636442184
+      ],
+      "start_end_halfsec_yawrate": [
+        0.1224367618560791,
+        0.11718809604644775
+      ],
+      "start_end_halfsec_leg_qvel_rms": [
+        0.1655392348766327,
+        0.09984678030014038
+      ],
+      "root_z_range": [
+        0.6777399778366089,
+        0.7439747452735901
+      ],
+      "finite": true,
+      "direction_segments": {
+        "forward": {
+          "seconds": 0.0,
+          "runs": []
+        },
+        "backward": {
+          "seconds": 0.0,
+          "runs": []
+        },
+        "left": {
+          "seconds": 1.2333333333333334,
+          "runs": [
+            [
+              21,
+              58
+            ]
+          ]
+        },
+        "right": {
+          "seconds": 0.0,
+          "runs": []
+        }
+      },
+      "keys": [
+        "fps",
+        "dof_names",
+        "body_names",
+        "dof_positions",
+        "dof_velocities",
+        "body_positions",
+        "body_rotations",
+        "body_linear_velocities",
+        "body_angular_velocities"
+      ],
+      "recommendation": "reserve_boundary_validation"
+    },
+    {
+      "path": "ACCAD/Male2Walking_c3d/B23-sidestepright_poses_120_jpos.npz",
+      "frames": 90,
+      "fps": 30.0,
+      "seconds": 3.0,
+      "span_seconds": 2.966666666666667,
+      "displacement_xy": [
+        0.5145796537399292,
+        -0.013991775922477245
+      ],
+      "distance_xy": 0.5147698521614075,
+      "path_length_xy": 0.5667409300804138,
+      "yaw_change_deg": 7.067585468292236,
+      "mean_speed": 0.18753337860107422,
+      "p95_speed": 0.8044969350099562,
+      "start_end_halfsec_speed": [
+        0.021265774965286255,
+        0.004852193407714367
+      ],
+      "start_end_halfsec_yawrate": [
+        0.12816059589385986,
+        0.06994020938873291
+      ],
+      "start_end_halfsec_leg_qvel_rms": [
+        0.20915918052196503,
+        0.5258787870407104
+      ],
+      "root_z_range": [
+        0.6737042665481567,
+        0.7607181668281555
+      ],
+      "finite": true,
+      "direction_segments": {
+        "forward": {
+          "seconds": 0.0,
+          "runs": []
+        },
+        "backward": {
+          "seconds": 0.0,
+          "runs": []
+        },
+        "left": {
+          "seconds": 0.0,
+          "runs": []
+        },
+        "right": {
+          "seconds": 1.0333333333333334,
+          "runs": [
+            [
+              25,
+              40
+            ],
+            [
+              43,
+              59
+            ]
+          ]
+        }
+      },
+      "keys": [
+        "fps",
+        "dof_names",
+        "body_names",
+        "dof_positions",
+        "dof_velocities",
+        "body_positions",
+        "body_rotations",
+        "body_linear_velocities",
+        "body_angular_velocities"
+      ],
+      "recommendation": "reserve_boundary_validation"
+    },
+    {
+      "path": "KIT/10/RightTurn05_poses_100_jpos.npz",
+      "frames": 210,
+      "fps": 30.0,
+      "seconds": 7.0,
+      "span_seconds": 6.966666666666667,
+      "displacement_xy": [
+        -1.1996464729309082,
+        1.1895947456359863
+      ],
+      "distance_xy": 1.6894636154174805,
+      "path_length_xy": 2.0781073570251465,
+      "yaw_change_deg": -85.72496032714844,
+      "mean_speed": 0.2969493567943573,
+      "p95_speed": 0.7684621006250381,
+      "start_end_halfsec_speed": [
+        0.029141249135136604,
+        0.041077014058828354
+      ],
+      "start_end_halfsec_yawrate": [
+        0.06702613830566406,
+        0.0551605224609375
+      ],
+      "start_end_halfsec_leg_qvel_rms": [
+        0.10109806805849075,
+        0.10464386641979218
+      ],
+      "root_z_range": [
+        0.7399140000343323,
+        0.7869815230369568
+      ],
+      "finite": true,
+      "direction_segments": {
+        "forward": {
+          "seconds": 0.6333333333333333,
+          "runs": [
+            [
+              76,
+              95
+            ]
+          ]
+        },
+        "backward": {
+          "seconds": 0.0,
+          "runs": []
+        },
+        "left": {
+          "seconds": 0.0,
+          "runs": []
+        },
+        "right": {
+          "seconds": 0.0,
+          "runs": []
+        }
+      },
+      "keys": [
+        "fps",
+        "dof_names",
+        "body_names",
+        "dof_positions",
+        "dof_velocities",
+        "body_positions",
+        "body_rotations",
+        "body_linear_velocities",
+        "body_angular_velocities"
+      ],
+      "recommendation": "priority_kinematic_candidate"
+    },
+    {
+      "path": "KIT/10/RightTurn10_poses_100_jpos.npz",
+      "frames": 181,
+      "fps": 30.0,
+      "seconds": 6.033333333333333,
+      "span_seconds": 6.0,
+      "displacement_xy": [
+        -1.3149360418319702,
+        1.2953912019729614
+      ],
+      "distance_xy": 1.8458318710327148,
+      "path_length_xy": 2.0759410858154297,
+      "yaw_change_deg": -89.29535675048828,
+      "mean_speed": 0.3440636098384857,
+      "p95_speed": 0.7712545990943909,
+      "start_end_halfsec_speed": [
+        0.018495066091418266,
+        0.019259395077824593
+      ],
+      "start_end_halfsec_yawrate": [
+        0.05549883842468262,
+        0.04343712329864502
+      ],
+      "start_end_halfsec_leg_qvel_rms": [
+        0.07825958728790283,
+        0.06778005510568619
+      ],
+      "root_z_range": [
+        0.7367702126502991,
+        0.7792142033576965
+      ],
+      "finite": true,
+      "direction_segments": {
+        "forward": {
+          "seconds": 2.033333333333333,
+          "runs": [
+            [
+              37,
+              73
+            ],
+            [
+              102,
+              127
+            ]
+          ]
+        },
+        "backward": {
+          "seconds": 0.0,
+          "runs": []
+        },
+        "left": {
+          "seconds": 0.0,
+          "runs": []
+        },
+        "right": {
+          "seconds": 0.0,
+          "runs": []
+        }
+      },
+      "keys": [
+        "fps",
+        "dof_names",
+        "body_names",
+        "dof_positions",
+        "dof_velocities",
+        "body_positions",
+        "body_rotations",
+        "body_linear_velocities",
+        "body_angular_velocities"
+      ],
+      "recommendation": "priority_kinematic_candidate"
+    },
+    {
+      "path": "KIT/11/LeftTurn03_poses_100_jpos.npz",
+      "frames": 199,
+      "fps": 30.0,
+      "seconds": 6.633333333333334,
+      "span_seconds": 6.6,
+      "displacement_xy": [
+        -1.4731582403182983,
+        -1.041925311088562
+      ],
+      "distance_xy": 1.8043845891952515,
+      "path_length_xy": 2.2392396926879883,
+      "yaw_change_deg": 95.9209976196289,
+      "mean_speed": 0.33750084042549133,
+      "p95_speed": 0.842889666557312,
+      "start_end_halfsec_speed": [
+        0.008692028932273388,
+        0.021633625030517578
+      ],
+      "start_end_halfsec_yawrate": [
+        0.03568291664123535,
+        0.03580284118652344
+      ],
+      "start_end_halfsec_leg_qvel_rms": [
+        0.032372210174798965,
+        0.02013041079044342
+      ],
+      "root_z_range": [
+        0.7393315434455872,
+        0.782441258430481
+      ],
+      "finite": true,
+      "direction_segments": {
+        "forward": {
+          "seconds": 0.5,
+          "runs": [
+            [
+              107,
+              122
+            ]
+          ]
+        },
+        "backward": {
+          "seconds": 0.0,
+          "runs": []
+        },
+        "left": {
+          "seconds": 0.0,
+          "runs": []
+        },
+        "right": {
+          "seconds": 0.0,
+          "runs": []
+        }
+      },
+      "keys": [
+        "fps",
+        "dof_names",
+        "body_names",
+        "dof_positions",
+        "dof_velocities",
+        "body_positions",
+        "body_rotations",
+        "body_linear_velocities",
+        "body_angular_velocities"
+      ],
+      "recommendation": "priority_kinematic_candidate"
+    },
+    {
+      "path": "KIT/11/LeftTurn05_poses_100_jpos.npz",
+      "frames": 188,
+      "fps": 30.0,
+      "seconds": 6.266666666666667,
+      "span_seconds": 6.233333333333333,
+      "displacement_xy": [
+        -1.4223154783248901,
+        -1.0965958833694458
+      ],
+      "distance_xy": 1.795968770980835,
+      "path_length_xy": 2.198056221008301,
+      "yaw_change_deg": 95.35954284667969,
+      "mean_speed": 0.35068196058273315,
+      "p95_speed": 0.8701957434415817,
+      "start_end_halfsec_speed": [
+        0.010146157816052437,
+        0.027720022946596146
+      ],
+      "start_end_halfsec_yawrate": [
+        0.037734270095825195,
+        0.0535430908203125
+      ],
+      "start_end_halfsec_leg_qvel_rms": [
+        0.043061938136816025,
+        0.031939271837472916
+      ],
+      "root_z_range": [
+        0.7381904721260071,
+        0.7810117602348328
+      ],
+      "finite": true,
+      "direction_segments": {
+        "forward": {
+          "seconds": 0.6333333333333333,
+          "runs": [
+            [
+              61,
+              80
+            ]
+          ]
+        },
+        "backward": {
+          "seconds": 0.0,
+          "runs": []
+        },
+        "left": {
+          "seconds": 0.0,
+          "runs": []
+        },
+        "right": {
+          "seconds": 0.0,
+          "runs": []
+        }
+      },
+      "keys": [
+        "fps",
+        "dof_names",
+        "body_names",
+        "dof_positions",
+        "dof_velocities",
+        "body_positions",
+        "body_rotations",
+        "body_linear_velocities",
+        "body_angular_velocities"
+      ],
+      "recommendation": "priority_kinematic_candidate"
+    },
+    {
+      "path": "KIT/11/WalkingStraightBackwards06_1_poses_100_jpos.npz",
+      "frames": 202,
+      "fps": 30.0,
+      "seconds": 6.733333333333333,
+      "span_seconds": 6.7,
+      "displacement_xy": [
+        1.6414507627487183,
+        0.021595535799860954
+      ],
+      "distance_xy": 1.6415927410125732,
+      "path_length_xy": 1.6874964237213135,
+      "yaw_change_deg": 1.6223337650299072,
+      "mean_speed": 0.2505930960178375,
+      "p95_speed": 0.7530003666877746,
+      "start_end_halfsec_speed": [
+        0.008110243827104568,
+        0.007529286202043295
+      ],
+      "start_end_halfsec_yawrate": [
+        0.028815507888793945,
+        0.018216371536254883
+      ],
+      "start_end_halfsec_leg_qvel_rms": [
+        0.019526410847902298,
+        0.016312051564455032
+      ],
+      "root_z_range": [
+        0.732681930065155,
+        0.7702561616897583
+      ],
+      "finite": true,
+      "direction_segments": {
+        "forward": {
+          "seconds": 0.0,
+          "runs": []
+        },
+        "backward": {
+          "seconds": 2.6666666666666665,
+          "runs": [
+            [
+              56,
+              90
+            ],
+            [
+              95,
+              110
+            ],
+            [
+              121,
+              152
+            ]
+          ]
+        },
+        "left": {
+          "seconds": 0.0,
+          "runs": []
+        },
+        "right": {
+          "seconds": 0.0,
+          "runs": []
+        }
+      },
+      "keys": [
+        "fps",
+        "dof_names",
+        "body_names",
+        "dof_positions",
+        "dof_velocities",
+        "body_positions",
+        "body_rotations",
+        "body_linear_velocities",
+        "body_angular_velocities"
+      ],
+      "recommendation": "priority_kinematic_candidate"
+    },
+    {
+      "path": "KIT/12/WalkingStraightBackwards03_poses_100_jpos.npz",
+      "frames": 198,
+      "fps": 30.0,
+      "seconds": 6.6,
+      "span_seconds": 6.566666666666666,
+      "displacement_xy": [
+        2.0969808101654053,
+        0.008931798860430717
+      ],
+      "distance_xy": 2.0969996452331543,
+      "path_length_xy": 2.1382288932800293,
+      "yaw_change_deg": 2.566361427307129,
+      "mean_speed": 0.32382717728614807,
+      "p95_speed": 0.8966182917356486,
+      "start_end_halfsec_speed": [
+        0.006048684008419514,
+        0.0073675368912518024
+      ],
+      "start_end_halfsec_yawrate": [
+        0.012985467910766602,
+        0.0360260009765625
+      ],
+      "start_end_halfsec_leg_qvel_rms": [
+        0.023427540436387062,
+        0.02169758640229702
+      ],
+      "root_z_range": [
+        0.7295029759407043,
+        0.782565712928772
+      ],
+      "finite": true,
+      "direction_segments": {
+        "forward": {
+          "seconds": 0.0,
+          "runs": []
+        },
+        "backward": {
+          "seconds": 2.3333333333333335,
+          "runs": [
+            [
+              55,
+              93
+            ],
+            [
+              96,
+              112
+            ],
+            [
+              116,
+              132
+            ]
+          ]
+        },
+        "left": {
+          "seconds": 0.0,
+          "runs": []
+        },
+        "right": {
+          "seconds": 0.0,
+          "runs": []
+        }
+      },
+      "keys": [
+        "fps",
+        "dof_names",
+        "body_names",
+        "dof_positions",
+        "dof_velocities",
+        "body_positions",
+        "body_rotations",
+        "body_linear_velocities",
+        "body_angular_velocities"
+      ],
+      "recommendation": "priority_kinematic_candidate"
+    },
+    {
+      "path": "KIT/205/walking_slow02_poses_100_jpos.npz",
+      "frames": 216,
+      "fps": 30.0,
+      "seconds": 7.2,
+      "span_seconds": 7.166666666666667,
+      "displacement_xy": [
+        -1.3493781089782715,
+        0.5540558695793152
+      ],
+      "distance_xy": 1.45869779586792,
+      "path_length_xy": 1.5575776100158691,
+      "yaw_change_deg": 3.7766027450561523,
+      "mean_speed": 0.21630780398845673,
+      "p95_speed": 0.49244915693998337,
+      "start_end_halfsec_speed": [
+        0.008805911056697369,
+        0.033911872655153275
+      ],
+      "start_end_halfsec_yawrate": [
+        0.0251162052154541,
+        0.09165501594543457
+      ],
+      "start_end_halfsec_leg_qvel_rms": [
+        0.018071690574288368,
+        0.07148018479347229
+      ],
+      "root_z_range": [
+        0.7520650625228882,
+        0.7827581763267517
+      ],
+      "finite": true,
+      "direction_segments": {
+        "forward": {
+          "seconds": 3.6333333333333333,
+          "runs": [
+            [
+              70,
+              106
+            ],
+            [
+              110,
+              158
+            ],
+            [
+              164,
+              189
+            ]
+          ]
+        },
+        "backward": {
+          "seconds": 0.0,
+          "runs": []
+        },
+        "left": {
+          "seconds": 0.0,
+          "runs": []
+        },
+        "right": {
+          "seconds": 0.0,
+          "runs": []
+        }
+      },
+      "keys": [
+        "fps",
+        "dof_names",
+        "body_names",
+        "dof_positions",
+        "dof_velocities",
+        "body_positions",
+        "body_rotations",
+        "body_linear_velocities",
+        "body_angular_velocities"
+      ],
+      "recommendation": "priority_kinematic_candidate"
+    },
+    {
+      "path": "KIT/9/WalkingStraightForwards03_poses_100_jpos.npz",
+      "frames": 213,
+      "fps": 30.0,
+      "seconds": 7.1,
+      "span_seconds": 7.066666666666666,
+      "displacement_xy": [
+        -1.523257851600647,
+        0.008242659270763397
+      ],
+      "distance_xy": 1.523280143737793,
+      "path_length_xy": 1.598641276359558,
+      "yaw_change_deg": 1.7777341604232788,
+      "mean_speed": 0.22514767944812775,
+      "p95_speed": 0.5083034038543701,
+      "start_end_halfsec_speed": [
+        0.005067648831754923,
+        0.011317113414406776
+      ],
+      "start_end_halfsec_yawrate": [
+        0.0043375492095947266,
+        0.04679727554321289
+      ],
+      "start_end_halfsec_leg_qvel_rms": [
+        0.01584845967590809,
+        0.026308860629796982
+      ],
+      "root_z_range": [
+        0.7517422437667847,
+        0.7761319279670715
+      ],
+      "finite": true,
+      "direction_segments": {
+        "forward": {
+          "seconds": 4.1,
+          "runs": [
+            [
+              49,
+              85
+            ],
+            [
+              86,
+              114
+            ],
+            [
+              115,
+              174
+            ]
+          ]
+        },
+        "backward": {
+          "seconds": 0.0,
+          "runs": []
+        },
+        "left": {
+          "seconds": 0.0,
+          "runs": []
+        },
+        "right": {
+          "seconds": 0.0,
+          "runs": []
+        }
+      },
+      "keys": [
+        "fps",
+        "dof_names",
+        "body_names",
+        "dof_positions",
+        "dof_velocities",
+        "body_positions",
+        "body_rotations",
+        "body_linear_velocities",
+        "body_angular_velocities"
+      ],
+      "recommendation": "priority_kinematic_candidate"
+    },
+    {
+      "path": "KIT/9/WalkingStraightForwards04_poses_100_jpos.npz",
+      "frames": 209,
+      "fps": 30.0,
+      "seconds": 6.966666666666667,
+      "span_seconds": 6.933333333333334,
+      "displacement_xy": [
+        -1.465976595878601,
+        0.03292316570878029
+      ],
+      "distance_xy": 1.466346263885498,
+      "path_length_xy": 1.537705421447754,
+      "yaw_change_deg": 1.26652193069458,
+      "mean_speed": 0.22073045372962952,
+      "p95_speed": 0.5347966074943542,
+      "start_end_halfsec_speed": [
+        0.009525412693619728,
+        0.01968425139784813
+      ],
+      "start_end_halfsec_yawrate": [
+        0.0245969295501709,
+        0.09070062637329102
+      ],
+      "start_end_halfsec_leg_qvel_rms": [
+        0.024575985968112946,
+        0.03255936875939369
+      ],
+      "root_z_range": [
+        0.7508938908576965,
+        0.7784156799316406
+      ],
+      "finite": true,
+      "direction_segments": {
+        "forward": {
+          "seconds": 3.8,
+          "runs": [
+            [
+              50,
+              110
+            ],
+            [
+              111,
+              136
+            ],
+            [
+              137,
+              166
+            ]
+          ]
+        },
+        "backward": {
+          "seconds": 0.0,
+          "runs": []
+        },
+        "left": {
+          "seconds": 0.0,
+          "runs": []
+        },
+        "right": {
+          "seconds": 0.0,
+          "runs": []
+        }
+      },
+      "keys": [
+        "fps",
+        "dof_names",
+        "body_names",
+        "dof_positions",
+        "dof_velocities",
+        "body_positions",
+        "body_rotations",
+        "body_linear_velocities",
+        "body_angular_velocities"
+      ],
+      "recommendation": "priority_kinematic_candidate"
+    }
+  ],
+  "audit_scope": "17714 AMASS headers; 1477 name-selected AMASS kinematic screenings; 19 CarryBox and 6 StyleLoco files; no simulator rollout or contact validation.",
+  "repositories": {
+    "AMASS": "da464c1f553eb982291656326c3aa02bd080fd35",
+    "PhysHSI": "07bf22bdaf9c23c1d40366334a744c1816b6d42b"
+  }
+}
