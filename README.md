@@ -292,6 +292,13 @@ See [docs/wbt-hybrid.md](docs/wbt-hybrid.md) for the track/gen design,
 observations, rewards, reset and goal noise, curriculum, termination
 conditions, and checkpoint compatibility.
 
+For a Chinese explanation of training details, common questions, and future
+experiment considerations, see [docs/hybrid-training-faq-zh.md](docs/hybrid-training-faq-zh.md).
+
+For the research plan on policy drift, frozen-skill composition, and cooperative
+transport with two Unitree G1 robots, see
+[docs/dual-humanoid-research-plan-zh.md](docs/dual-humanoid-research-plan-zh.md).
+
 ## Citation
 
 This implementation is based on the learning frameworks introduced in GfR

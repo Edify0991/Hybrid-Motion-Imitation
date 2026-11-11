@@ -1,0 +1,17 @@
+{
+  "date": "2026-11-11",
+  "mode": "compose",
+  "status": "repository_research_plan_delivered",
+  "round": 1,
+  "primary_document": "../../dual-humanoid-research-plan-zh.md",
+  "baseline_commit": "c353731999b3578c41ad5a00f896415b45e6a9f5",
+  "confirmed_resources": {"robots": "2 x Unitree G1", "target": "RSS 2027 initial submission"},
+  "foundation_scores": [7.94, 8.31],
+  "final_review_scores": [8.31, 8.56],
+  "score_meaning": "Proposal quality only; not empirical efficacy or acceptance probability",
+  "resolved_review_items": ["scope", "freeze_semantics", "drift_anchor", "KL_scale_confound", "empirical_capability_definition", "command_sequence", "coupled_prediction", "velocity_units", "FiLM_gradient_path"],
+  "technical_debts": ["checkpoint sustained-hold measurement", "shared-object dual-articulation environment", "GPU budget", "G1 variant and end-effector configuration", "contact sensing and object localization", "calibrated coupled response model"],
+  "next_gate": "G0: sustained holding and slowly varying goals without reference-clip reset",
+  "training_code_modified": false,
+  "new_policy_training_run": false
+}

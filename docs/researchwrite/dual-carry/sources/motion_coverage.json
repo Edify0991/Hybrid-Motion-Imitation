@@ -1,0 +1,82 @@
+[
+  {
+    "file": "sub3_largebox_003_mj_w_obj_reframed.npz",
+    "sha256": "827aced06e4111ade1bd38c9880cb76e870727438cc75fbcc2aee5b636edc5c9",
+    "frames": 325,
+    "fps": 50.0,
+    "duration_s": 6.48,
+    "object_displacement_m": [
+      1.406302591981486,
+      -0.3245311582851947,
+      -0.001226276159286499
+    ],
+    "object_z_start_end_max_m": [
+      0.18436242640018463,
+      0.18313615024089813,
+      0.8449168801307678
+    ],
+    "moving_frames": 192,
+    "direction_edges_deg": [
+      -180.0,
+      -135.0,
+      -90.0,
+      -45.0,
+      0.0,
+      45.0,
+      90.0,
+      135.0,
+      180.0
+    ],
+    "direction_counts": [
+      0,
+      0,
+      33,
+      101,
+      58,
+      0,
+      0,
+      0
+    ],
+    "caveat": "All frames, speed > 0.1 m/s; object velocity relative to root yaw. No verified hold/contact segmentation; not policy capability."
+  },
+  {
+    "file": "sub3_largebox_003_mj_w_obj_reframed_mirrored.npz",
+    "sha256": "9b8fa055065e9df0892a2fbdd1aa6357b524b0cc0d851fc2ece3da954e26ab39",
+    "frames": 325,
+    "fps": 50.0,
+    "duration_s": 6.48,
+    "object_displacement_m": [
+      1.406302591981486,
+      0.3245311582851947,
+      -0.001226276159286499
+    ],
+    "object_z_start_end_max_m": [
+      0.18436242640018463,
+      0.18313615024089813,
+      0.8449168801307678
+    ],
+    "moving_frames": 192,
+    "direction_edges_deg": [
+      -180.0,
+      -135.0,
+      -90.0,
+      -45.0,
+      0.0,
+      45.0,
+      90.0,
+      135.0,
+      180.0
+    ],
+    "direction_counts": [
+      0,
+      0,
+      0,
+      58,
+      101,
+      33,
+      0,
+      0
+    ],
+    "caveat": "All frames, speed > 0.1 m/s; object velocity relative to root yaw. No verified hold/contact segmentation; not policy capability."
+  }
+]
